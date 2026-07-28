@@ -1,0 +1,69 @@
+security.global.ca            = "RenProCAList.pem"
+
+# RENAPO
+authenticate.id1.login        = "WS342001"
+authenticate.id1.password     = "GELO3412"
+ws.mycurp.url                 = "https://webs.curp.gob.mx/WebServicesConsulta/services/ConsultaPorCurpService"
+ws.mycurp.authenticate        = "id1"
+
+# SaldosPreliminarIssste
+ws.wssaldospreliminar.url     = "https://wsprocesar.com.mx/Retiros/SaldoPreliminarIssste"
+
+# AUTENTICACION PROCESAR
+authenticate.id3.login        = "wsissste"
+authenticate.id3.password     = "w3bAp.1s5S7e#23"
+authenticate.id3.scheme       = "Basic"
+
+#PROCESAR URLs Directas
+ws.wsconsultarprocesar.url            = "https://wsprocesar.com.mx/retiros/v1/999/portabilidad/determinacion/consulta"
+ws.wsconsultarprocesar.authenticate   = "id3"
+ws.wsinsercionprocesar.url            = "https://wsprocesar.com.mx/retiros/v1/1000/portabilidad/determinacion/insercion"
+ws.wsinsercionprocesar.authenticate   = "id3"
+ws.wscancelarprocesar.url             = "https://wsprocesar.com.mx/retiros/v1/1001/portabilidad/cancelacion"
+ws.wscancelarprocesar.authenticate    = "id3"
+
+#PROCESAR API Gateway
+ws.wsapiconsultar.url            = "https://api.dev.issste.gob.mx/retiros/v1/999/portabilidad/determinacion/consulta"
+ws.wsapiconsultar.authenticate   = "id3"
+ws.wsapiinsercion.url            = "https://api.dev.issste.gob.mx/retiros/v1/1000/portabilidad/determinacion/insercion"
+ws.wsapiinsercion.authenticate   = "id3"
+ws.wsapicancelacion.url          = "https://api.dev.issste.gob.mx/retiros/v1/1001/portabilidad/cancelacion"
+ws.wsapicancelacion.authenticate = "id3"
+
+#BENEFICIO PENSIONARIO
+ws.wsclientebenficiopensionario.url   = "https://localhost:6394/ws/r/wsportabilidad/dictamenbeneficiopensionario"
+
+#CAMBIO DE REGIMEN
+ws.wsregistrofoliotrabajador.url          = "https://wsprocesar.com.mx/institutos/v1/1020/cambioregimen/trabajador/registrofolio"
+ws.wsregistrofoliotrabajador.authenticate = "id3"
+ws.consultapreaviso.url                   = "https://wsprocesar.com.mx/institutos-direct/v1/cambioregimen/preaviso"
+ws.consultapreaviso.authenticate          = "id3"
+ws.consultaacuse.url                      = "https://wsprocesar.com.mx/institutos-direct/v1/cambioregimen/acuse"
+ws.consultaacuse.authenticate             = "id3"
+
+#WSPEMEX
+ws.wspemexestatus.url                = "https://wsprocesar.com.mx/pemex/v1/1023/portabilidad/trabajador/afiliatorio/estatus"
+ws.wspemexestatus.authenticate       = "id3"
+ws.wspemexnotificacion.url           = "https://wsprocesar.com.mx/pemex/v1/1028/portabilidad/periodotransferido/notificacion"
+ws.wspemexnotificacion.authenticate  = "id3"
+ws.wspemextransferencia.url          = "https://wsprocesar.com.mx/pemex/v1/1024/portabilidad/periodocotizado/transferencia"
+ws.wspemextransferencia.authenticate = "id3"
+
+# IMSS API Gateway
+ws.wsconsultabasicaimss.url          = "http://api.dev.issste.gob.mx/semanascotizadas-rest/WSEstatusAsegurado"
+ws.wsconsultarobustaimss.url         = "http://api.dev.issste.gob.mx/semanascotizadas-rest/WSConsultaPeriodos"
+ws.wsnotificarprocedenciaimss.url    = "http://api.dev.issste.gob.mx/semanascotizadas-rest/WSConclusionPortabilidad"
+
+
+# CNSF URL Directa
+#ws.wscnsf.url               = "http://glsisucweb.sytes.net:10110/SucWebSWIS.dll/soap/ISucWebSWIS"
+ws.wscnsf.url                = "http://glsisucweb.sytes.net:1921/SucWebSW_PORTABILIDAD2023/SucWebSWIS.dll/soap/ISucWebSWIS"
+
+# Firma
+ws.wsfirmasat.url            = "https://api.dev.issste.gob.mx/wsfirma"
+
+#para contenedores kubernets
+#ws.consultabasicaimss.url   = "URL_BASE_GAS/ws/r/wsportabilidad/consultabasicaimss"
+#ws.consultabasicaissste.url = "URL_BASE_GAS/ws/r/wsportabilidad/consultabasicaissste"
+#ws.consultabasicaimss.url   = "http://10.1.52.254/gas/ws/r/wsportabilidad/consultabasicaimss"
+#ws.consultabasicaissste.url = "http://10.1.52.254/gas/ws/r/wsportabilidad/consultabasicaissste"

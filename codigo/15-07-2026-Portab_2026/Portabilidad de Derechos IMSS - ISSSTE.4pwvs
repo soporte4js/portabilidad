@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WorkspaceViewState version="1.0">
+  <ExpandedNodes>
+    <Node path=""/>
+    <Node path="/Librerias Generales[group]"/>
+    <Node path="/Librerias Generales[group]/authcallback[library]"/>
+    <Node path="/Librerias Generales[group]/clienteCNSF[library]"/>
+    <Node path="/Librerias Generales[group]/clienteDictamenBeneficioPensionario[library]"/>
+    <Node path="/Librerias Generales[group]/clienteSaldosPreliminar[library]"/>
+    <Node path="/Librerias Generales[group]/clienteSAT[library]"/>
+    <Node path="/Librerias Generales[group]/clienteWS1ConsultaBasica[library]"/>
+    <Node path="/Librerias Generales[group]/clienteWS2DeterminacionProcesar[library]"/>
+    <Node path="/Librerias Generales[group]/clienteWS3ConsultaRobusta[library]"/>
+    <Node path="/Librerias Generales[group]/clienteWS4NotificarProcesar[library]"/>
+    <Node path="/Librerias Generales[group]/clienteWS5ActualizarProcesar[library]"/>
+    <Node path="/Librerias Generales[group]/clienteWS6AvisoEstatusTransferencia[library]"/>
+    <Node path="/Librerias Generales[group]/database[library]"/>
+    <Node path="/Librerias Generales[group]/reporteSolicitud[library]"/>
+    <Node path="/Librerias Generales[group]/resources[library]"/>
+    <Node path="/Librerias Generales[group]/validacionesPortabilidad[library]"/>
+    <Node path="/Librerias Generales[group]/wsCURP[library]"/>
+    <Node path="/Librerias Generales[group]/wsCURPDetalle[library]"/>
+    <Node path="/Packages[group]"/>
+    <Node path="/Packages[group]/Portabilidad_GAR_401[package]"/>
+    <Node path="/Portabilidad AP[group]"/>
+    <Node path="/Portabilidad AP[group]/Portabilidad[group]"/>
+    <Node path="/Portabilidad AP[group]/Portabilidad[group]/rPortabilidad[application]"/>
+    <Node path="/Portabilidad AP[group]/RENAPO[group]"/>
+    <Node path="/Portabilidad AP[group]/RENAPO[group]/rCURP[application]"/>
+    <Node path="/Portabilidad AP[group]/RENAPO[group]/rCURPDetalle[application]"/>
+    <Node path="/Portabilidad AP[group]/Servicios Web[group]"/>
+    <Node path="/Portabilidad AP[group]/Servicios Web[group]/rwsServiciosISSSTE[application]"/>
+    <Node path="/Portabilidad AP[group]/Servicios Web[group]/ws1ConsultaBasica[library]"/>
+    <Node path="/Portabilidad AP[group]/Servicios Web[group]/ws3ConsultaRobusta[library]"/>
+    <Node path="/Portabilidad AP[group]/Servicios Web[group]/ws6AvisoEstatusPortabilidad[library]"/>
+    <Node path="/Portabilidad AP[group]/Servicios Web[group]/ws7DictamenBeneficioPensionario[library]"/>
+    <Node path="/XCF[group]"/>
+    <Node path="/XCF[group]/xcf[library]"/>
+  </ExpandedNodes>
+  <OpenDocuments>
+    <Document container="true" filePath="fuentes/clienteSAT.4gl" locator="1:1" module="mod-ce3">
+      <Data name="8" value="CP1252"/>
+    </Document>
+    <Document container="true" filePath="D:/Portabilidad/Produccion_Modificaciones/Produccion/15-07-2026-Portab_2026/fglprofile_prod" locator="26:4:26:17" module="mod-ce3">
+      <Data name="8" value="CP1252"/>
+    </Document>
+    <Document container="true" filePath="fuentes/lReporteSolicitud.4gl" locator="669:42" module="mod-ce3">
+      <Data name="8" value="CP1252"/>
+    </Document>
+  </OpenDocuments>
+  <CurrentDocument filePath="fuentes/lReporteSolicitud.4gl" module="mod-ce3"/>
+</WorkspaceViewState>

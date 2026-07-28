@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Form name="fMensajenoSAT_gdc.tmp" build="4.01.10" text="Transferencia de Derechos" style="dialog" width="40" height="7">
+  <LStr text="Transferencia de Derechos"/>
+  <Grid name="grid1" width="40" height="7">
+    <Label name="label5" width="5" text="      " posY="0" posX="17" gridWidth="5">
+      <LStr text="      "/>
+    </Label>
+    <Label name="label3" width="5" text="      " posY="2" posX="2" gridWidth="5">
+      <LStr text="      "/>
+    </Label>
+    <Label name="label1" width="25" height="3" text="La solicitud no logró firmarse de forma exitosa,&#10;por favor verifique sus credenciales." justify="left" posY="2" posX="8" gridWidth="25" gridHeight="3">
+      <LStr text="La solicitud no logró firmarse de forma exitosa,&#10;por favor verifique sus credenciales."/>
+    </Label>
+    <Label name="label4" width="5" text="      " posY="2" posX="34" gridWidth="5">
+      <LStr text="      "/>
+    </Label>
+    <Label name="label2" width="10" text="     " posY="5" posX="15" gridWidth="10">
+      <LStr text="     "/>
+    </Label>
+    <Button name="accept" width="10" text="Aceptar" posY="6" posX="15" gridWidth="10" tabIndex="1">
+      <LStr text="Aceptar"/>
+    </Button>
+  </Grid>
+</Form>

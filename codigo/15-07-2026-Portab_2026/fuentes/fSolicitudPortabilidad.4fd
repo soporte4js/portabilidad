@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm fileVersion="40100" gstVersion="40106" name="managedform" uid="{114d25e0-0619-4b6c-bbc0-789b84366c3d}">
+  <AGSettings>
+    <DynamicProperties version="4"/>
+  </AGSettings>
+  <Record masterTable="cei_solicitud" name="record1" uid="{92f20a7e-235f-4c64-9c47-1362a02fd846}">
+    <RecordField colName="folio_solicitud" fieldIdRef="1" fieldType="NON_DATABASE" name="folio_solicitud" sqlTabName="cei_solicitud" uid="{6d65275c-2803-4ee9-9209-a1a99792bec8}"/>
+    <RecordField colName="id_tiposolicitud" fieldIdRef="2" fieldType="NON_DATABASE" name="id_tiposolicitud" sqlTabName="cei_solicitud" uid="{4c431f9c-c856-4d67-99eb-7d9bb7cb888f}"/>
+    <RecordField colName="id_aplicacion" fieldIdRef="3" fieldType="NON_DATABASE" name="id_aplicacion" sqlTabName="cei_solicitud" uid="{e59c2e30-6acb-4a2c-874b-98c2c7fdaa32}"/>
+    <RecordField colName="fecha_solicitud" fieldIdRef="4" fieldType="NON_DATABASE" name="fecha_solicitud" sqlTabName="cei_solicitud" uid="{b6af2b15-0652-4a7c-bb13-fbc47720e714}"/>
+    <RecordField colName="curp" fieldIdRef="6" fieldType="NON_DATABASE" name="curp" sqlTabName="cei_solicitud" uid="{fe725ef5-d7a7-4ca5-b209-aba35fa5f4be}"/>
+    <RecordField colName="primer_apellido" fieldIdRef="7" fieldType="NON_DATABASE" name="primer_apellido" sqlTabName="cei_solicitud" uid="{530c5a4f-ef20-4eb5-9b66-80362491eaa0}"/>
+    <RecordField colName="segundo_apellido" fieldIdRef="8" fieldType="NON_DATABASE" name="segundo_apellido" sqlTabName="cei_solicitud" uid="{2e2eed45-e3ac-4df3-a681-0c1447906867}"/>
+    <RecordField colName="nombre" fieldIdRef="9" fieldType="NON_DATABASE" name="nombre" sqlTabName="cei_solicitud" uid="{a2c9ef6c-3267-4b57-a53c-52cc8adc01fa}"/>
+    <RecordField colName="correo" fieldIdRef="10" fieldType="NON_DATABASE" name="correo" sqlTabName="cei_solicitud" uid="{17c1d2a4-e791-4069-bd7d-425c692174fe}"/>
+    <RecordField colName="telefono" fieldIdRef="11" fieldType="NON_DATABASE" length="10" name="telefono" sqlTabName="cei_solicitud" uid="{611c47d8-efee-416a-b573-87d946f4315b}"/>
+    <RecordField colName="usuario" fieldIdRef="12" fieldType="NON_DATABASE" name="usuario" sqlTabName="cei_solicitud" uid="{7590a310-8ba2-4727-8afe-8d801de71fda}"/>
+    <RecordField colName="ip_maquina" fieldIdRef="13" fieldType="NON_DATABASE" name="ip_maquina" sqlTabName="cei_solicitud" uid="{238f0857-29f8-470e-8ecc-31a4ea5082c8}"/>
+    <RecordField colName="observaciones" fieldIdRef="14" fieldType="NON_DATABASE" name="observaciones" sqlTabName="cei_solicitud" uid="{e14793f3-6106-4e72-87e5-a53e500ce316}"/>
+    <RecordField colName="id_motivorechazo" fieldIdRef="15" fieldType="NON_DATABASE" name="id_motivorechazo" sqlTabName="cei_solicitud" uid="{af860ecd-f7aa-4591-a966-58dbdcae65e3}"/>
+    <RecordField colName="id_estatus" fieldIdRef="16" fieldType="NON_DATABASE" name="id_estatus" sqlTabName="cei_solicitud" uid="{6134a039-4c22-4090-b444-984381ca6a3c}"/>
+    <RecordField fieldIdRef="17" name="nss_imss" uid="{b243c833-ad37-47a4-8406-0223ac71df92}"/>
+    <RecordField fieldIdRef="18" name="l_val_cer" uid="{087a30a2-4c63-4d46-b3d5-476819a9cca7}"/>
+    <RecordField fieldIdRef="19" name="l_val_key" uid="{6be51032-d0bd-4dce-bd09-06b7d5e09ccf}"/>
+    <RecordField fieldIdRef="20" name="img_cer_ok" uid="{f0eaee74-2368-4c30-959d-a0b1da4543c7}"/>
+    <RecordField fieldIdRef="21" name="img_llave_ok" uid="{db2dbee2-41c2-4d81-a119-a5a0622ce5f6}"/>
+    <RecordField fieldIdRef="23" name="regimen" uid="{82e30599-85f7-4a91-8be1-2263107e9545}"/>
+    <RecordField fieldIdRef="24" name="afiliatoria" uid="{3a5eb64f-2ba9-49bb-b129-bd205807f319}"/>
+    <RecordField fieldIdRef="25" name="img_help" uid="{07a50163-5d8a-4f0a-9412-9c4e076fcced}"/>
+    <RecordField fieldIdRef="26" name="fec_nac" uid="{e507e4df-b614-4370-aa4d-2e216aab01b2}"/>
+    <RecordField fieldIdRef="27" name="fecha_baja" uid="{7119bcd7-cf2c-47ad-a4f0-22e758f5254d}"/>
+    <RecordField fieldIdRef="28" name="nss" uid="{5e5f2a76-a4de-45d4-ad3c-c73c0cbb0898}"/>
+    <RecordField fieldIdRef="5" name="antiguedad" uid="{0509a58f-f17d-437f-8348-aaec1e0a4bdb}"/>
+    <RecordField fieldIdRef="35" name="rfc" uid="{99a73591-c649-493b-88d4-4671c7b76bdd}"/>
+    <RecordField fieldIdRef="36" name="nombre_completo" uid="{7c6e599a-a8b0-4a74-bc6d-b529f82a07f2}"/>
+    <RecordField fieldIdRef="37" name="password" uid="{ec817abd-3775-4a31-abe8-f3761e634911}"/>
+    <RecordField fieldIdRef="39" name="num_issste" uid="{e5fb26e8-df91-4daa-bb81-1f63cc81c45f}"/>
+  </Record>
+  <Record name="record2" uid="{85c36356-f1f3-474d-8abc-03ec3f78f0c6}">
+    <RecordField fieldIdRef="22" name="txt_env_sol" uid="{e3a37a80-523b-46ce-a45d-f1272f5f77e9}"/>
+  </Record>
+  <Record name="scr_solicitudes" uid="{13b39928-3207-4f87-aebd-3dbd43b435ea}">
+    <RecordField fieldIdRef="29" name="folio" uid="{bca73522-8dd4-4481-b982-ca1a3021016c}"/>
+    <RecordField fieldIdRef="30" name="fecha" uid="{58fabc3e-4d4c-4987-a100-a8f67c8f58a3}"/>
+    <RecordField fieldIdRef="31" name="a_nss_imss" uid="{8beb8565-e7fb-4f0f-a5da-52b90ed5df72}"/>
+    <RecordField fieldIdRef="32" name="email" uid="{15599467-235c-4ae7-9153-f20dcecf62c1}"/>
+    <RecordField fieldIdRef="33" name="estatus" uid="{6ae28df8-99ff-4e24-82b7-bbfc14729f33}"/>
+    <RecordField fieldIdRef="34" name="imagen_s" uid="{3ffe1de3-c244-4245-b9f8-97030db57b00}"/>
+    <RecordField fieldIdRef="38" name="imagen_r" uid="{115134db-e2ef-45f4-bfc9-3e4711d986be}"/>
+  </Record>
+  <Form fourSTFile="../resources/estilos.4st" gridHeight="72" gridWidth="101" name="form" text="Transferencia de Derechos">
+    <Group gridHeight="72" gridWidth="94" name="group5" posX="3" posY="0" text="">
+      <Grid gridHeight="70" gridWidth="91" name="dsipe1" posX="2" posY="1" style="myGridLayoutEngine">
+        <Group gridHeight="4" gridWidth="81" hidden="true" name="group6" posX="1" posY="0" style="mysubGroupWidget" text="">
+          <Label gridHeight="1" gridWidth="68" name="label6" posX="1" posY="1" style="encabezados" text="Portabilidad de derechos ISSSTE-IMSS"/>
+          <HLine gridWidth="5" name="hline2" posX="1" posY="2"/>
+        </Group>
+        <Label gridHeight="1" gridWidth="68" name="label7" posX="1" posY="5" style="encabezados" text="Datos registrados en la base de datos"/>
+        <Group gridHeight="7" gridWidth="81" name="group1" posX="1" posY="6" style="myGroupWidget" text="">
+          <Label gridHeight="1" gridWidth="10" justify="right" name="cei_solicitud_curp_label1" posX="1" posY="1" style="bold" text="CURP">
+            <Initializer text="dbschema:cei_solicitud.curp/@label"/>
+          </Label>
+          <Edit case="upper" fieldId="6" gridHeight="1" gridWidth="25" length="18" name="curp" posX="12" posY="1" scroll="true" sqlType="VARCHAR" tabIndex="11" widget="Edit">
+            <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+          </Edit>
+          <Label gridHeight="1" gridWidth="12" justify="right" name="label5" posX="42" posY="1" style="bold" text="Régimen pensionario"/>
+          <Edit fieldId="23" gridHeight="1" gridWidth="25" justify="left" name="regimen" posX="55" posY="1" tabIndex="-1" title="edit1" widget="Edit"/>
+          <Label gridHeight="1" gridWidth="10" justify="right" name="cei_solicitud_primer_apellido_label1" posX="1" posY="2" style="bold" text="Primer Apellido">
+            <Initializer text="dbschema:cei_solicitud.primer_apellido/@label"/>
+          </Label>
+          <Edit case="upper" fieldId="7" gridHeight="1" gridWidth="25" name="primer_apellido" noEntry="true" posX="12" posY="2" scroll="true" sqlType="VARCHAR" tabIndex="12" widget="Edit">
+            <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+          </Edit>
+          <Label gridHeight="1" gridWidth="2" name="label12" posX="38" posY="2" text="               "/>
+          <Label gridHeight="1" gridWidth="12" justify="right" name="label17" posX="42" posY="2" style="bold" text="No. de seguridad social"/>
+          <Edit fieldId="28" gridHeight="1" gridWidth="25" justify="left" name="nss" noEntry="true" posX="55" posY="2" tabIndex="-1" title="edit3" widget="Edit"/>
+          <Label gridHeight="1" gridWidth="10" justify="right" name="cei_solicitud_segundo_apellido_label1" posX="1" posY="3" style="bold" text="Segundo Apellido">
+            <Initializer text="dbschema:cei_solicitud.segundo_apellido/@label"/>
+          </Label>
+          <Edit case="upper" fieldId="8" gridHeight="1" gridWidth="25" name="segundo_apellido" noEntry="true" posX="12" posY="3" scroll="true" sqlType="VARCHAR" tabIndex="18" widget="Edit">
+            <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+          </Edit>
+          <Label gridHeight="1" gridWidth="12" justify="right" name="label10" posX="42" posY="3" style="bold" text="Situación afiliatoria"/>
+          <Edit fieldId="24" gridHeight="1" gridWidth="25" justify="left" name="afiliatoria" posX="55" posY="3" tabIndex="-1" title="edit2" widget="Edit"/>
+          <Label gridHeight="1" gridWidth="10" justify="right" name="cei_solicitud_nombre_label1" posX="1" posY="4" style="bold" text="Nombre (s)">
+            <Initializer text="dbschema:cei_solicitud.nombre/@label"/>
+          </Label>
+          <Edit case="upper" fieldId="9" gridHeight="1" gridWidth="25" name="nombre" noEntry="true" posX="12" posY="4" scroll="true" sqlType="VARCHAR" tabIndex="5" widget="Edit">
+            <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+          </Edit>
+          <Label gridHeight="1" gridWidth="12" justify="right" name="label16" posX="42" posY="4" style="bold" text="Fecha de baja"/>
+          <Edit fieldId="27" gridHeight="1" gridWidth="25" justify="left" name="fecha_baja" noEntry="true" posX="55" posY="4" tabIndex="-1" title="edit2" widget="Edit"/>
+          <Label gridHeight="1" gridWidth="10" justify="right" name="label15" posX="1" posY="5" style="bold" text="Fecha de Nacimiento"/>
+          <Edit fieldId="26" gridHeight="1" gridWidth="25" name="fec_nac" posX="12" posY="5" tabIndex="-1" title="edit1" widget="Edit"/>
+          <Label gridHeight="1" gridWidth="12" justify="right" name="label18" posX="42" posY="5" style="bold" text="Antiguedad para pensiones (días)"/>
+          <Edit fieldId="5" gridHeight="1" gridWidth="25" justify="left" name="antiguedad" posX="55" posY="5" tabIndex="-1" title="edit2" widget="Edit"/>
+        </Group>
+        <Label gridHeight="1" gridWidth="10" name="label8" posX="1" posY="13" text="           "/>
+        <Label gridHeight="1" gridWidth="68" name="label13" posX="1" posY="15" style="encabezados" text="Datos de la solicitud"/>
+        <Group gridHeight="4" gridWidth="81" name="group2" posX="1" posY="16" style="myGroupWidget" text="">
+          <Label gridHeight="1" gridWidth="10" justify="left" name="label1" posX="12" posY="1" style="bold" text="No. de seguridad social IMSS"/>
+          <Label gridHeight="1" gridWidth="10" justify="left" name="cei_solicitud_correo_label1" posX="33" posY="1" style="bold" text="Correo">
+            <Initializer text="dbschema:cei_solicitud.correo/@label"/>
+          </Label>
+          <Label gridHeight="1" gridWidth="13" justify="left" name="cei_solicitud_telefono_label1" posX="54" posY="1" style="bold" text="Teléfono">
+            <Initializer text="dbschema:cei_solicitud.telefono/@label"/>
+          </Label>
+          <Label gridHeight="1" gridWidth="10" name="label14" posX="1" posY="2" text="                         "/>
+          <Edit fieldId="17" gridHeight="1" gridWidth="20" name="nss_imss" picture="###########" posX="12" posY="2" tabIndex="16" title="edit1" widget="Edit"/>
+          <Edit case="lower" fieldId="10" gridHeight="1" gridWidth="20" name="correo" posX="33" posY="2" scroll="true" sqlType="VARCHAR" tabIndex="13" widget="Edit">
+            <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+          </Edit>
+          <Edit fieldId="11" gridHeight="1" gridWidth="20" length="10" name="telefono" picture="##########" posX="54" posY="2" scroll="true" sqlType="VARCHAR" tabIndex="8" widget="Edit">
+            <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+          </Edit>
+        </Group>
+        <Label gridHeight="1" gridWidth="10" name="label9" posX="1" posY="20" text="           "/>
+        <Group gridHeight="3" gridWidth="25" name="group4" posX="57" posY="21" text="">
+          <Button gridHeight="1" gridWidth="10" name="cancel" posX="3" posY="1" tabIndex="-1" text="Cancelar"/>
+          <Button gridHeight="1" gridWidth="10" name="btn_siguiente" posX="14" posY="1" tabIndex="-1" text="Enviar"/>
+        </Group>
+        <Label gridHeight="1" gridWidth="68" hidden="true" name="label19" posX="1" posY="24" style="encabezados" text="Enviar Solicitud"/>
+        <Group gridHeight="22" gridWidth="81" hidden="true" name="group3" posX="1" posY="25" style="myGroupWidget" text="">
+          <FFImage autoScale="true" fieldId="22" gridHeight="9" gridWidth="70" name="txt_env_sol" posX="8" posY="1" sizePolicy="fixed" title="ffimage1" widget="FFImage"/>
+          <Label gridHeight="1" gridWidth="5" name="label4" posX="1" posY="4" text="                              "/>
+          <Label gridHeight="1" gridWidth="5" name="label11" posX="1" posY="11" text="                              "/>
+          <Label gridHeight="1" gridWidth="10" name="label24" posX="8" posY="11" style="bold" text="Nombre"/>
+          <Edit fieldId="36" gridHeight="1" gridWidth="56" name="nombre_completo" posX="19" posY="11" tabIndex="-1" title="edit1" widget="Edit"/>
+          <Label gridHeight="1" gridWidth="10" name="label23" posX="8" posY="12" style="bold" text="RFC"/>
+          <Edit fieldId="35" gridHeight="1" gridWidth="19" name="rfc" noEntry="true" posX="19" posY="12" tabIndex="-1" title="edit1" widget="Edit"/>
+          <Label gridHeight="1" gridWidth="67" justify="left" name="label2" posX="8" posY="13" style="bold" text="Certificado (.cer)"/>
+          <FFImage action="btn_ayuda" autoScale="true" comment="¿Porque utilizar mi e.firma?" fieldId="25" gridHeight="1" gridWidth="2" name="img_help" posX="76" posY="13" sizePolicy="fixed" style="noborder" title="ffimage1" widget="FFImage"/>
+          <ButtonEdit action="btn_sel_cer" comment="Seleccione el archivo del certificado" fieldId="18" gridHeight="1" gridWidth="67" image="find" name="l_val_cer" notEditable="true" placeholder="Ubicación del certificado" posX="8" posY="14" tabIndex="17" title="buttonedit1" widget="ButtonEdit"/>
+          <FFImage autoScale="true" fieldId="20" gridHeight="1" gridWidth="2" name="img_cer_ok" posX="76" posY="14" sizePolicy="fixed" title="ffimage1" widget="FFImage"/>
+          <Label gridHeight="1" gridWidth="67" justify="left" name="label3" posX="8" posY="15" style="bold" text="Clave privada (.key)"/>
+          <ButtonEdit action="btn_sel_key" comment="Seleccione el archivo de la llave privada" completer="false" fieldId="19" fontPitch="fixed" gridHeight="1" gridWidth="67" image="find" name="l_val_key" notEditable="true" placeholder="Ubicación de la llave privada" posX="8" posY="16" scroll="false" tabIndex="6" title="buttonedit2" widget="ButtonEdit"/>
+          <FFImage autoScale="true" fieldId="21" gridHeight="1" gridWidth="2" name="img_llave_ok" posX="76" posY="16" sizePolicy="fixed" title="ffimage1" widget="FFImage"/>
+          <Label gridHeight="1" gridWidth="16" name="label25" posX="8" posY="17" style="bold" text="Contraseña de clave privada"/>
+          <Edit comment="La contraseña es sensible a mayúsculas y minúsculas" fieldId="37" gridHeight="1" gridWidth="67" invisible="true" name="password" placeholder="La contraseña es sensible a mayúsculas y minúsculas" posX="8" posY="18" tabIndex="-1" title="edit1" widget="Edit"/>
+        </Group>
+        <Group gridHeight="3" gridWidth="25" hidden="true" name="group7" posX="57" posY="47" text="">
+          <Button gridHeight="1" gridWidth="10" name="cancelar" posX="3" posY="1" tabIndex="-1" text="Cancelar"/>
+          <Button gridHeight="1" gridWidth="10" name="btn_enviar" posX="14" posY="1" tabIndex="-1" text="Enviar"/>
+        </Group>
+        <Label gridHeight="1" gridWidth="68" hidden="true" name="label20" posX="2" posY="50" style="encabezados" text="Solicitudes"/>
+        <Group gridHeight="8" gridWidth="89" hidden="true" name="group8" posX="2" posY="51" text="">
+          <Table gridHeight="6" gridWidth="86" name="tblsolicitudes" posX="2" posY="1" totalRows="5">
+            <Edit fieldId="29" gridHeight="1" gridWidth="8" name="folio" posX="0" posY="0" tabIndex="-1" title="Folio" widget="Edit"/>
+            <Edit fieldId="30" gridHeight="1" gridWidth="12" name="fecha" posX="8" posY="0" tabIndex="-1" title="Fecha" widget="Edit"/>
+            <Edit fieldId="31" gridHeight="1" gridWidth="13" justify="center" name="a_nss_imss" posX="20" posY="0" tabIndex="-1" title="No. de Seguridad&#10;Social IMSS" widget="Edit"/>
+            <Edit fieldId="32" gridHeight="1" gridWidth="19" name="email" posX="33" posY="0" tabIndex="-1" title="Correo" widget="Edit"/>
+            <Edit fieldId="33" gridHeight="1" gridWidth="8" name="estatus" posX="52" posY="0" tabIndex="-1" title="Estatus" widget="Edit"/>
+            <FFImage action="btn_descargar_solicitud" fieldId="34" gridHeight="1" gridWidth="8" justify="center" name="imagen_s" posX="60" posY="0" title="Descargar&#10;Solicitud" widget="FFImage"/>
+            <FFImage action="btn_descargar_resolucion" fieldId="38" gridHeight="1" gridWidth="10" justify="center" name="imagen_r" posX="68" posY="0" title="Descragar&#10;Resolución" widget="FFImage"/>
+          </Table>
+        </Group>
+        <Group gridHeight="3" gridWidth="27" hidden="true" name="group9" posX="57" posY="59" text="">
+          <Label gridHeight="1" gridWidth="10" name="label21" posX="1" posY="1" text="                                          "/>
+          <Button gridHeight="1" gridWidth="10" name="cancelar2" posX="16" posY="1" tabIndex="-1" text="Cancelar"/>
+        </Group>
+        <Group gridHeight="3" gridWidth="27" hidden="true" name="group10" posX="57" posY="62" text="">
+          <Label gridHeight="1" gridWidth="10" name="label22" posX="1" posY="1" text="                                          "/>
+          <Button gridHeight="1" gridWidth="10" name="btn_nueva" posX="16" posY="1" tabIndex="-1" text="Nueva Solicitud"/>
+        </Group>
+        <Label gridHeight="1" gridWidth="12" hidden="true" justify="left" name="cei_solicitud_fecha_solicitud_label1" posX="2" posY="65" style="font_labels_field" text="Fecha de Solicitud">
+          <Initializer text="dbschema:cei_solicitud.fecha_solicitud/@label"/>
+        </Label>
+        <Edit fieldId="4" gridHeight="1" gridWidth="25" hidden="true" length="1" name="fecha_solicitud" noEntry="true" posX="15" posY="65" qual1="YEAR" qualFraction="SECOND" scroll="true" sqlType="DATETIME" tabIndex="1" widget="Edit">
+          <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+        </Edit>
+        <Label gridHeight="1" gridWidth="11" hidden="true" justify="right" name="cei_solicitud_id_aplicacion_label1" posX="44" posY="65" style="px14" text="ID Aplicación">
+          <Initializer text="dbschema:cei_solicitud.id_aplicacion/@label"/>
+        </Label>
+        <ComboBox colName="id_aplicacion" fieldId="3" fieldType="NON_DATABASE" gridHeight="1" gridWidth="20" hidden="true" items="" length="1" name="id_aplicacion" noEntry="true" notNull="true" posX="56" posY="65" scroll="true" sqlTabName="cei_solicitud" sqlType="INTEGER" tabIndex="3" widget="ComboBox">
+          <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+        </ComboBox>
+        <Edit fieldId="39" gridHeight="1" gridWidth="10" hidden="true" name="num_issste" posX="77" posY="65" tabIndex="-1" title="edit1" widget="Edit"/>
+        <Label gridHeight="1" gridWidth="11" hidden="true" justify="right" name="cei_solicitud_id_tiposolicitud_label1" posX="3" posY="66" style="px14" text="ID Tipo Solicitud">
+          <Initializer text="dbschema:cei_solicitud.id_tiposolicitud/@label"/>
+        </Label>
+        <ComboBox colName="id_tiposolicitud" fieldId="2" fieldType="NON_DATABASE" gridHeight="1" gridWidth="20" hidden="true" items="" length="1" name="id_tiposolicitud" noEntry="true" notNull="true" posX="15" posY="66" scroll="true" sqlTabName="cei_solicitud" sqlType="INTEGER" tabIndex="14" widget="ComboBox">
+          <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+        </ComboBox>
+        <Label gridHeight="1" gridWidth="11" hidden="true" justify="right" name="cei_solicitud_usuario_label1" posX="44" posY="66" text="Usuario">
+          <Initializer text="dbschema:cei_solicitud.usuario/@label"/>
+        </Label>
+        <Edit case="upper" fieldId="12" gridHeight="1" gridWidth="20" hidden="true" length="255" name="usuario" noEntry="true" posX="56" posY="66" scroll="true" sqlType="VARCHAR" tabIndex="2" widget="Edit">
+          <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+        </Edit>
+        <Label gridHeight="1" gridWidth="13" hidden="true" justify="left" name="cei_solicitud_observaciones_label1" posX="1" posY="67" style="font_labels_field" text="Observaciones        ">
+          <Initializer text="dbschema:cei_solicitud.observaciones/@label"/>
+        </Label>
+        <Edit fieldId="14" gridHeight="1" gridWidth="25" hidden="true" name="observaciones" posX="15" posY="67" scroll="true" sqlType="VARCHAR" tabIndex="15" widget="Edit">
+          <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+        </Edit>
+        <Label gridHeight="1" gridWidth="11" hidden="true" justify="right" name="cei_solicitud_ip_maquina_label1" posX="44" posY="67" text="IP Maquina">
+          <Initializer text="dbschema:cei_solicitud.ip_maquina/@label"/>
+        </Label>
+        <Edit fieldId="13" gridHeight="1" gridWidth="20" hidden="true" length="15" name="ip_maquina" posX="56" posY="67" scroll="true" sqlType="VARCHAR" tabIndex="9" widget="Edit">
+          <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+        </Edit>
+        <Label gridHeight="1" gridWidth="11" hidden="true" justify="right" name="cei_solicitud_folio_solicitud_label1" posX="3" posY="68" style="px14" text="Folio Solicitud">
+          <Initializer text="dbschema:cei_solicitud.folio_solicitud/@label"/>
+        </Label>
+        <Edit fieldId="1" gridHeight="1" gridWidth="20" hidden="true" length="1" name="folio_solicitud" noEntry="true" posX="15" posY="68" scroll="true" sqlType="BIGINT" tabIndex="4" widget="Edit">
+          <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+        </Edit>
+        <Label gridHeight="1" gridWidth="11" hidden="true" justify="right" name="cei_solicitud_id_motivorechazo_label1" posX="44" posY="68" text="ID Motivo de Rechazo">
+          <Initializer text="dbschema:cei_solicitud.id_motivorechazo/@label"/>
+        </Label>
+        <Edit fieldId="15" gridHeight="1" gridWidth="20" hidden="true" length="1" name="id_motivorechazo" noEntry="true" posX="56" posY="68" scroll="true" sqlType="INTEGER" tabIndex="7" widget="Edit">
+          <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+        </Edit>
+        <Label gridHeight="1" gridWidth="12" hidden="true" justify="right" name="cei_solicitud_id_estatus_label1" posX="43" posY="69" text="ID Estatus">
+          <Initializer text="dbschema:cei_solicitud.id_estatus/@label"/>
+        </Label>
+        <Edit fieldId="16" gridHeight="1" gridWidth="20" hidden="true" length="1" name="id_estatus" noEntry="true" posX="56" posY="69" scroll="true" sqlType="INTEGER" tabIndex="10" widget="Edit">
+          <Initializer title="dbschema:$(sqlTabName).$(colName)/@label"/>
+        </Edit>
+      </Grid>
+    </Group>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewA5ADIAZgAyADAAYQA3AGUALQAyADMANQBmAC0ANABjADYANAAtADkAYwA0ADcALQAxADMANgAyAGEAMAAyAGYAZAA4ADQANgB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAEwAewAxADMAYgAzADkAOQAyADgALQAzADIAMAA3AC0ANABmADgANwAtAGEAZQBiAGQALQAzAGQAYgBkADQAMwBiADQAMwA1AGUAYQB9QGIzM4mmZypANMzNL5madz9ok3S8an76AQAAAEwAewA4ADUAYwAzADYAMwA1ADYALQBmADEAZgAzAC0ANAA3ADQAZAAtADgAYQBiAGMALQAwADMAZQBjADMAZgA3ADgAZgAwAGMANgB9wGTmZskszalALmZm/szONz9gYk3S8an8AQ==]]>
+  </DiagramLayout>
+</ManagedForm>

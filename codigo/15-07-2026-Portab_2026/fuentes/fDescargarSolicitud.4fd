@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm fileVersion="40100" gstVersion="40106" name="managedform" uid="{1a16c6bb-e92d-45c3-bd2e-5199c1dda5e5}">
+  <AGSettings>
+    <DynamicProperties version="4"/>
+  </AGSettings>
+  <Record name="record1" uid="{64107028-6d96-47e8-9bb1-a7e27bedc8e6}">
+    <RecordField fieldIdRef="1" name="documento_descargar" uid="{ddf46a32-9e54-446f-b0be-cc45db1cd454}"/>
+  </Record>
+  <Form gridHeight="8" gridWidth="47" name="form" text="Transferencia de Derechos">
+    <Grid gridHeight="6" gridWidth="45" name="grid1" posX="1" posY="1">
+      <Group gridHeight="3" gridWidth="42" name="group1" posX="1" posY="1" text="Solicitud">
+        <Edit fieldId="1" gridHeight="1" gridWidth="40" name="documento_descargar" posX="1" posY="1" tabIndex="-1" title="edit1" widget="Edit"/>
+      </Group>
+      <Button gridHeight="1" gridWidth="10" name="btn_descargar" posX="11" posY="4" tabIndex="-1" text="Descargar"/>
+      <Button gridHeight="1" gridWidth="10" name="cancel" posX="22" posY="4" tabIndex="-1" text="Cancelar"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewA2ADQAMQAwADcAMAAyADgALQA2AGQAOQA2AC0ANAA3AGUAOAAtADkAYgBiADEALQBhADcAZQAyADcAYgBlAGQAYwA4AGUANgB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

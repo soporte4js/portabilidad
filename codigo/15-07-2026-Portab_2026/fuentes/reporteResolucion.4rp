@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<report:Report xmlns:rtl="http://www.4js.com/2004/RTL" xmlns:report="http://www.4js.com/2007/REPORT" xmlns="http://www.4js.com/2004/PXML" gstVersion="40106" version="7.00">
+    <report:Settings RWPageWidth="letterwidth" RWPageLength="letterlength" RWLeftMargin="1.3cm" RWTopMargin="1.3cm" RWRightMargin="1.3cm" RWBottomMargin="1.3cm">
+        <report:FormatList>
+            <report:Format-SVG/>
+            <report:Format-PDF/>
+            <report:Format-image/>
+        </report:FormatList>
+    </report:Settings>
+    <report:Data RWDataLocation="lReporteSolicitud.rdd" RWFglReportName="reporte_transferencia"/>
+    <report:Conflicts/>
+    <rtl:stylesheet>
+        <PXML>
+            <rtl:match name="Report" nameConstraint="Report" minOccurs="1" maxOccurs="1">
+                <MINIPAGE name="Page Root" width="18.5cm" length="max">
+                    <LAYOUTNODE name="Page Header" width="18.5cm" length="42mm" port="anyPageHeader">
+                        <MINIPAGE name="MiniPage80" width="1.38cm" length="18.5cm" alignment="near" bgColor="#621132" layoutDirection="leftToRight">
+                            <WORDBOX name="gob.mx" y="5mm" anchorX="1" alignment="center" color="#ffffff" fontName="Arial" fontSize="18pt" fontBold="true" text="gob.mx"/>
+                        </MINIPAGE>
+                        <MINIPAGE name="StripeLayouter3" width="1.38cm" length="18.5cm" bgColor="#d9d9d9" layoutDirection="leftToRight">
+                            <WORDBOX name="ISSSTE" y="max/2" width="min" anchorX="1" anchorY="0.5" alignment="center" fontName="Arial" fontSize="9" textAlignment="center" text="Instituto de Seguridad y Servicios Sociales de los Trabajadores del Estado"/>
+                        </MINIPAGE>
+                        <MINIPAGE name="MiniPage12" width="12mm" length="18.5cm" layoutDirection="leftToRight">
+                            <WORDBOX name="Nombre del formato" y="max/2" width="min" anchorX="1" anchorY="0.5" alignment="center" fontName="Arial" fontSize="12" floatingBehavior="enclosed" textAlignment="center" text="Resolución de transferencia de derechos"/>
+                        </MINIPAGE>
+                    </LAYOUTNODE>
+                    <rtl:match name="FirstPageHeader" nameConstraint="FirstPageHeader" minOccurs="0" maxOccurs="1"/>
+                    <LAYOUTNODE name="LayoutNode" width="max" length="min" port="anyPageFooter" floatingBehavior="enclosed">
+                        <MINIPAGE name="MiniPage" width="min" length="max" layoutDirection="leftToRight">
+                            <WORDBOX name="WordBox" fontName="Arial" fontSize="8" fontBold="true" floatingBehavior="enclosed" text="Sello digital:"/>
+                            <MINIPAGE name="Separador_size_6_2" width="18.5cm" length="3">
+                                <WORDBOX name="WordBox12" floatingBehavior="enclosed" text=" "/>
+                            </MINIPAGE>
+                            <rtl:input-variable name="sello_digital" type="FGLString" expectedLocation="expectedAhead"/>
+                            <WORDWRAPBOX name="sello_digital Value" designHints="fieldName:sello_digital;fieldRole:FormFieldValue" class="grwStringValue" width="max" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="{{sello_digital}}"/>
+                        </MINIPAGE>
+                        <MINIPAGE name="Separador_size_6_2_3" width="18.5cm" length="8">
+                            <WORDBOX name="WordBox52" floatingBehavior="enclosed" text=" "/>
+                        </MINIPAGE>
+                        <MINIPAGE name="MiniPage75" width="min" length="min" borderTopWidth="0.5" borderRightWidth="0.5" borderBottomWidth="0.5" borderLeftWidth="0.5" borderStyle="solid">
+                            <WORDWRAPBOX name="WordWrapBox4" width="18.35cm" fontName="Arial" fontSize="7" text="En caso de que el Resultado sea PROCEDENTE, deberá validar la información de los periodos y sueldos remitidos por el IMSS en su Expediente Electrónico Único, los cuales estarán identificados como TRANSFERENCIA DE DERECHOS IMSS ISSSTE." textAlignment="justified" paddingLeftWidth="2"/>
+                            <MINIPAGE name="Separador_size_6_2_2" width="18.5cm" length="2">
+                                <WORDBOX name="WordBox18" floatingBehavior="enclosed" text=" "/>
+                            </MINIPAGE>
+                            <MINIPAGE name="Separador_size_6_2_1" width="18.5cm" length="4">
+                                <WORDBOX name="WordBox17" floatingBehavior="enclosed" text=" "/>
+                            </MINIPAGE>
+                            <WORDWRAPBOX name="WordWrapBox5" width="18.35cm" fontName="Arial" fontSize="7" text="Para cualquier aclaración, deberá acudir al Departamento de Afiliación y Prestaciones Económicas del ISSSTE o, en caso de no estar conforme con la respuesta del IMSS, deberá acudir al Departamento de Afiliación y Vigencia de la Subdelegación de ese Instituto; en ambos casos según corresponda conforme a su domicilio." textAlignment="justified" paddingLeftWidth="2"/>
+                            <MINIPAGE name="Separador_size_6_2_1_2" width="18.5cm" length="4">
+                                <WORDBOX name="WordBox56" floatingBehavior="enclosed" text=" "/>
+                            </MINIPAGE>
+                            <WORDWRAPBOX name="WordWrapBox6" width="18.35cm" fontName="Arial" fontSize="7" text="Para la emisión de la Resolución se utilizó la información contenida en la Base de Datos Única de Derechohabientes del ISSSTE integrada de conformidad con lo que establecen los artículos 7; 8 y 13 de la Ley del ISSSTE y los artículos 9 y 64 del Reglamento del Sistema Nacional de Afiliación y Vigencia de Derechos, de la Base de Datos Única de Derechohabientes y del Expediente Electrónico Único del ISSSTE; así como con la información proporcionada por el IMSS a través de los medios electrónicos implementados y autorizados por ambos Institutos." textAlignment="justified" paddingLeftWidth="2"/>
+                            <MINIPAGE name="Separador_size_6_2_1_1" width="18.5cm" length="4">
+                                <WORDBOX name="WordBox54" floatingBehavior="enclosed" text=" "/>
+                            </MINIPAGE>
+                            <WORDWRAPBOX name="WordWrapBox" width="18.35cm" fontName="Arial" fontSize="7" floatingBehavior="enclosed" text="Este documento es reconocido como prueba de la información contenida en medios electrónicos. Su método de generación garantiza la fiabilidad de los datos, verificables en el IMSS o ISSSTE. Para ser válido, debe conservarse y presentarse en su forma original, sin alteraciones desde su generación, respaldado por el sello digital y firma electrónica del ISSSTE." textAlignment="justified" paddingLeftWidth="2"/>
+                            <MINIPAGE name="Separador_size_6_2_1_3" width="18.5cm" length="4">
+                                <WORDBOX name="WordBox58" floatingBehavior="enclosed" text=" "/>
+                            </MINIPAGE>
+                        </MINIPAGE>
+                        <MINIPAGE name="MiniPage74" width="min" length="min">
+                            <MINIPAGE name="MiniPage76" width="50" length="18.5cm" alignment="center" bgColor="#d9d9d9" layoutDirection="leftToRight" borderTopWidth="2" borderRightWidth="0" borderBottomWidth="0" borderLeftWidth="0" borderStyle="solid" borderColor="#595959">
+                                <MINIPAGE name="MiniPage63" width="40.6678" length="126.877" alignment="center" layoutDirection="leftToRight">
+                                    <rtl:input-variable name="imagen2" type="FGLString" expectedLocation="expectedBefore"/>
+                                    <IMAGEBOX name="imagen2 Value" designHints="fieldName:imagen2;fieldRole:FormFieldValue" class="grwBlobValue" y="10" width="3.76cm" length="1.07cm" alignment="center" floatingBehavior="enclosed" url="{{&quot;data:image/jpg;base64,&quot;+imagen2}}" intendedResolution="120"/>
+                                </MINIPAGE>
+                                <MINIPAGE name="MiniPage64" width="min" length="89.1703" alignment="center" layoutDirection="leftToRight">
+                                    <rtl:input-variable name="imagen3" type="FGLString" expectedLocation="expectedBefore"/>
+                                    <IMAGEBOX name="imagen3 Value" designHints="fieldName:imagen3;fieldRole:FormFieldValue" class="grwBlobValue" width="77.0208" length="17.45" floatingBehavior="enclosed" url="{{&quot;data:image/jpg;base64,&quot;+imagen3}}" intendedResolution="120"/>
+                                </MINIPAGE>
+                                <MINIPAGE name="MiniPage65" width="min" length="104.991" alignment="center" layoutDirection="leftToRight">
+                                    <rtl:input-variable name="imagen1" type="FGLString" expectedLocation="expectedBefore"/>
+                                    <IMAGEBOX name="imagen1 Value" designHints="fieldName:imagen1;fieldRole:FormFieldValue" class="grwBlobValue" width="73.0656" length="21.0103" floatingBehavior="enclosed" url="{{&quot;data:image/jpg;base64,&quot;+imagen1}}" intendedResolution="120"/>
+                                </MINIPAGE>
+                                <WORDWRAPBOX name="WordWrapBox7" y="350" width="170" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="Contacto:&#10;Jesús García Corona No. 140 2° piso, Col.  Buenavista, Alcaldía Cuauhtémoc, Ciudad &#10;de México C.P. 06350, Tel.: (55)51409617&#10;"/>
+                            </MINIPAGE>
+                        </MINIPAGE>
+                        <rtl:input-variable name="bndAplicacion" type="FGLString" expectedLocation="expectedAhead"/>
+                        <MINIPAGE name="MiniPage79_4" rtl:condition="bndAplicacion==&quot;2&quot;" width="min" length="18.5cm" layoutDirection="rightToLeft">
+                            <MINIPAGE name="MiniPage150" width="min" length="min">
+                                <WORDBOX name="WordBox64" fontName="Arial" fontSize="9" floatingBehavior="enclosed" text="de 1"/>
+                            </MINIPAGE>
+                            <MINIPAGE name="MiniPage151" width="9.8" length="4" layoutDirection="leftToRight"/>
+                            <MINIPAGE name="MiniPage152" width="min" length="min" layoutDirection="leftToRight">
+                                <WORDBOX name="WordBox22" width="17" fontName="Arial" fontSize="9" floatingBehavior="enclosed" text="Pág."/>
+                                <PAGENOBOX name="PageNoBox4" width="9" fontName="Arial" fontSize="9" floatingBehavior="enclosed"/>
+                            </MINIPAGE>
+                        </MINIPAGE>
+                    </LAYOUTNODE>
+                    <rtl:match name="OnEveryRow" nameConstraint="OnEveryRow" minOccurs="0" maxOccurs="unbounded">
+                        <MINIPAGE name="MiniPage79_1" width="min" length="min">
+                            <MINIPAGE name="MiniPage01" width="min" length="min" layoutDirection="topToBottom">
+                                <MINIPAGE name="MiniPage132" width="18.5cm" length="21.8">
+                                    <MINIPAGE name="MiniPage133" width="min" length="18.5cm" layoutDirection="leftToRight">
+                                        <MINIPAGE name="MiniPage134" width="max" length="157" bgColor="#d9d9d9" layoutDirection="leftToRight" borderWidth="0.5" borderBottomWidth="0" borderStyle="solid">
+                                            <WORDBOX name="WordBox46" y="max/2" width="min" anchorX="1" anchorY="0.5" alignment="center" fontSize="10pt" floatingBehavior="enclosed" textAlignment="center" text="Fecha de solicitud"/>
+                                        </MINIPAGE>
+                                        <MINIPAGE name="MiniPage9" width="min" length="208" layoutDirection="leftToRight"/>
+                                        <MINIPAGE name="MiniPage10" width="max" length="157" bgColor="#d9d9d9" layoutDirection="leftToRight" borderWidth="0.5" borderStyle="solid">
+                                            <WORDBOX name="WordBox47" y="max/2" width="49.8" length="13.6" anchorX="1" anchorY="0.5" alignment="center" fontSize="10pt" floatingBehavior="enclosed" textAlignment="center" text="Folio"/>
+                                        </MINIPAGE>
+                                    </MINIPAGE>
+                                </MINIPAGE>
+                            </MINIPAGE>
+                            <MINIPAGE name="MiniPage13" width="20" length="18.5cm" layoutDirection="leftToRight">
+                                <MINIPAGE name="MiniPage14" width="max" length="157.5" layoutDirection="leftToRight" borderWidth="0.5" borderLeftWidth="0" borderStyle="solid">
+                                    <MINIPAGE name="MiniPage59" width="max" length="max" layoutDirection="leftToRight" borderWidth="0.5" borderTopWidth="0" borderRightWidth="0" borderBottomWidth="0" borderStyle="solid">
+                                        <rtl:input-variable name="lfecha_solicitud" type="FGLString" expectedLocation="expectedBefore"/>
+                                        <WORDWRAPBOX name="lfecha_solicitud Value" designHints="fieldName:lmes_fecha;fieldRole:FormFieldValue" class="grwStringValue" y="max/2" width="66" anchorY="0.5" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="{{lfecha_solicitud}}" textAlignment="center"/>
+                                    </MINIPAGE>
+                                </MINIPAGE>
+                                <MINIPAGE name="MiniPage15" width="max" length="208" layoutDirection="leftToRight"/>
+                                <MINIPAGE name="MiniPage16" width="max" length="157" layoutDirection="leftToRight" borderWidth="0.5" borderTopWidth="0" borderStyle="solid">
+                                    <rtl:input-variable name="lDatosReporte.folio_solicitud" type="FGLString" expectedLocation="expectedHere"/>
+                                    <WORDWRAPBOX name="lDatosReporte.folio_solicitud Value" designHints="fieldName:lDatosReporte.folio_solicitud;fieldRole:FormFieldValue" class="grwStringValue" y="max/2" anchorY="0.5" alignment="center" fontName="Arial" fontSize="8" text="{{lDatosReporte.folio_solicitud}}" textAlignment="center"/>
+                                </MINIPAGE>
+                            </MINIPAGE>
+                            <MINIPAGE name="Separador1_1" width="18.5cm" length="min">
+                                <WORDBOX name="WordBox50" floatingBehavior="enclosed" text=" "/>
+                            </MINIPAGE>
+                            <MINIPAGE name="Datosregistradosenlabasededatos" width="21.8" length="18.5cm" bgColor="#d9d9d9" layoutDirection="leftToRight">
+                                <WORDBOX name="WordBox48" y="max/2" width="min" anchorX="1" anchorY="0.5" alignment="center" fontName="Arial" fontSize="10" floatingBehavior="enclosed" textAlignment="center" text="Datos registrados en la base de datos"/>
+                            </MINIPAGE>
+                            <MINIPAGE name="Separador_size_6" width="max" length="8">
+                                <WORDBOX name="WordBox4" floatingBehavior="enclosed" text=" "/>
+                            </MINIPAGE>
+                            <MINIPAGE name="MiniPage21" width="min" length="min">
+                                <MINIPAGE name="MiniPage22" width="20" length="max" layoutDirection="leftToRight">
+                                    <MINIPAGE name="MiniPage31" width="max" length="256" alignment="center" fontSize="10pt" layoutDirection="leftToRight" borderTopWidth="0.5" borderRightWidth="0.5" borderBottomWidth="0" borderLeftWidth="0.5" borderStyle="solid">
+                                        <WORDBOX name="lDatosReporte.curp Title" designHints="fieldName:lDatosReporte.curp;fieldRole:FormFieldTitle" class="grwTableStringColumnTitle" width="min" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" textAlignment="right" text="Nombre (s):" localizeText="true" paddingLeftWidth="4"/>
+                                        <rtl:input-variable name="lDatosReporte.nombre" type="FGLString" expectedLocation="expectedHere"/>
+                                        <WORDWRAPBOX name="lDatosReporte.nombre Value1" designHints="fieldName:lDatosReporte.nombre;fieldRole:FormFieldValue" class="grwStringValue" y="85" width="170" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="{{lDatosReporte.nombre}}"/>
+                                    </MINIPAGE>
+                                    <MINIPAGE name="MiniPage32" width="min" length="10" layoutDirection="leftToRight"/>
+                                    <MINIPAGE name="MiniPage33" width="max" length="256" alignment="center" layoutDirection="leftToRight" borderTopWidth="0.5" borderRightWidth="0.5" borderBottomWidth="0" borderLeftWidth="0.5" borderStyle="solid">
+                                        <WORDBOX name="lDatosReporte.regimen Title" designHints="fieldName:lDatosReporte.regimen;fieldRole:FormFieldTitle" class="grwTableStringColumnTitle" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="Regimen pensionario:" localizeText="true" paddingLeftWidth="4"/>
+                                        <rtl:input-variable name="lDatosReporte.regimen" type="FGLString" expectedLocation="expectedHere"/>
+                                        <WORDWRAPBOX name="lDatosReporte.curp Value" designHints="fieldName:lDatosReporte.curp;fieldRole:FormFieldValue" class="grwStringValue" y="130" width="124" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="{{lDatosReporte.regimen}}"/>
+                                    </MINIPAGE>
+                                </MINIPAGE>
+                                <MINIPAGE name="MiniPage23" width="20" length="max" layoutDirection="leftToRight">
+                                    <MINIPAGE name="MiniPage34" width="max" length="256" alignment="center" fontSize="10pt" layoutDirection="leftToRight" borderTopWidth="0.5" borderRightWidth="0.5" borderBottomWidth="0" borderLeftWidth="0.5" borderStyle="solid">
+                                        <WORDBOX name="lDatosReporte.fecha_solicitud Title" designHints="fieldName:lDatosReporte.fecha_solicitud;fieldRole:FormFieldTitle" class="grwTableStringColumnTitle" width="min" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" textAlignment="right" text="Primer apellido:" localizeText="true" paddingLeftWidth="4"/>
+                                        <rtl:input-variable name="lDatosReporte.primer_apellido" type="FGLString" expectedLocation="expectedHere"/>
+                                        <WORDWRAPBOX name="lDatosReporte.primer_apellido Value1" designHints="fieldName:lDatosReporte.primer_apellido;fieldRole:FormFieldValue" class="grwStringValue" y="85" width="170" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="{{lDatosReporte.primer_apellido}}"/>
+                                    </MINIPAGE>
+                                    <MINIPAGE name="MiniPage35" width="min" length="10" layoutDirection="leftToRight"/>
+                                    <MINIPAGE name="MiniPage36" width="max" length="256" alignment="center" layoutDirection="leftToRight" borderTopWidth="0.5" borderRightWidth="0.5" borderBottomWidth="0" borderLeftWidth="0.5" borderStyle="solid">
+                                        <WORDBOX name="lDatosReporte.nss_issste Title" designHints="fieldName:lDatosReporte.nss_issste;fieldRole:FormFieldTitle" class="grwTableStringColumnTitle" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="Número de seguridad social:" localizeText="true" paddingLeftWidth="4"/>
+                                        <rtl:input-variable name="lDatosReporte.nss_issste" type="FGLString" expectedLocation="expectedHere"/>
+                                        <WORDWRAPBOX name="lDatosReporte.fecha_solicitud Value" designHints="fieldName:lDatosReporte.fecha_solicitud;fieldRole:FormFieldValue" class="grwStringValue" y="130" width="124" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="{{lDatosReporte.nss_issste}}"/>
+                                    </MINIPAGE>
+                                </MINIPAGE>
+                                <MINIPAGE name="MiniPage24" width="20" length="max" layoutDirection="leftToRight">
+                                    <MINIPAGE name="MiniPage37" width="max" length="256" alignment="center" fontSize="10pt" layoutDirection="leftToRight" borderTopWidth="0.5" borderRightWidth="0.5" borderBottomWidth="0" borderLeftWidth="0.5" borderStyle="solid">
+                                        <WORDBOX name="lDatosReporte.primer_apellido Title" designHints="fieldName:lDatosReporte.primer_apellido;fieldRole:FormFieldTitle" class="grwTableStringColumnTitle" width="min" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" textAlignment="right" text="Segundo apellido:" localizeText="true" paddingLeftWidth="4"/>
+                                        <rtl:input-variable name="lDatosReporte.segundo_apellido" type="FGLString" expectedLocation="expectedHere"/>
+                                        <WORDWRAPBOX name="lDatosReporte.segundo_apellido Value1" designHints="fieldName:lDatosReporte.segundo_apellido;fieldRole:FormFieldValue" class="grwStringValue" y="85" width="170" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="{{lDatosReporte.segundo_apellido}}"/>
+                                    </MINIPAGE>
+                                    <MINIPAGE name="MiniPage38" width="min" length="10" layoutDirection="leftToRight"/>
+                                    <MINIPAGE name="MiniPage39" width="max" length="256" alignment="center" layoutDirection="leftToRight" borderTopWidth="0.5" borderRightWidth="0.5" borderBottomWidth="0" borderLeftWidth="0.5" borderStyle="solid">
+                                        <WORDBOX name="lDatosReporte.situacion_afil Title" designHints="fieldName:lDatosReporte.situacion_afil;fieldRole:FormFieldTitle" class="grwTableStringColumnTitle" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="Situación afiliatoria:" localizeText="true" paddingLeftWidth="4"/>
+                                        <rtl:input-variable name="lDatosReporte.situacion_afil" type="FGLString" expectedLocation="expectedHere"/>
+                                        <WORDWRAPBOX name="lDatosReporte.primer_apellido Value" designHints="fieldName:lDatosReporte.primer_apellido;fieldRole:FormFieldValue" class="grwStringValue" y="130" width="124" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="{{lDatosReporte.situacion_afil}}"/>
+                                    </MINIPAGE>
+                                </MINIPAGE>
+                                <MINIPAGE name="MiniPage25" width="20" length="max" layoutDirection="leftToRight">
+                                    <MINIPAGE name="MiniPage40" width="max" length="256" alignment="center" layoutDirection="leftToRight" borderTopWidth="0.5" borderRightWidth="0.5" borderBottomWidth="0" borderLeftWidth="0.5" borderStyle="solid">
+                                        <WORDBOX name="lDatosReporte.segundo_apellido Title" designHints="fieldName:lDatosReporte.segundo_apellido;fieldRole:FormFieldTitle" class="grwTableStringColumnTitle" width="min" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" textAlignment="right" text="CURP:" localizeText="true" paddingLeftWidth="4"/>
+                                        <rtl:input-variable name="lDatosReporte.curp" type="FGLString" expectedLocation="expectedHere"/>
+                                        <WORDWRAPBOX name="lDatosReporte.curp Value1" designHints="fieldName:lDatosReporte.curp;fieldRole:FormFieldValue" class="grwStringValue" y="85" width="170" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="{{lDatosReporte.curp}}"/>
+                                    </MINIPAGE>
+                                    <MINIPAGE name="MiniPage41" width="min" length="10" layoutDirection="leftToRight"/>
+                                    <MINIPAGE name="MiniPage42" width="max" length="256" alignment="center" layoutDirection="leftToRight" borderTopWidth="0.5" borderRightWidth="0.5" borderBottomWidth="0" borderLeftWidth="0.5" borderStyle="solid">
+                                        <WORDBOX name="lDatosReporte.fecha_baja Title" designHints="fieldName:lDatosReporte.fecha_baja;fieldRole:FormFieldTitle" class="grwTableStringColumnTitle" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="Fecha de baja:" localizeText="true" paddingLeftWidth="4"/>
+                                        <rtl:input-variable name="lDatosReporte.fecha_baja" type="FGLString" expectedLocation="expectedHere"/>
+                                        <WORDWRAPBOX name="lDatosReporte.segundo_apellido Value" designHints="fieldName:lDatosReporte.segundo_apellido;fieldRole:FormFieldValue" class="grwStringValue" y="130" width="124" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="{{lDatosReporte.fecha_baja}}"/>
+                                    </MINIPAGE>
+                                </MINIPAGE>
+                                <MINIPAGE name="MiniPage26" width="20" length="max" layoutDirection="leftToRight">
+                                    <MINIPAGE name="MiniPage43" width="max" length="256" alignment="center" layoutDirection="leftToRight" borderTopWidth="0.5" borderRightWidth="0.5" borderBottomWidth="0.5" borderLeftWidth="0.5" borderStyle="solid">
+                                        <WORDBOX name="lDatosReporte.nombre Title" designHints="fieldName:lDatosReporte.nombre;fieldRole:FormFieldTitle" class="grwTableStringColumnTitle" width="min" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" textAlignment="right" text="Fecha de nacimiento:" localizeText="true" paddingLeftWidth="4"/>
+                                        <rtl:input-variable name="lDatosReporte.fecha_nacimiento" type="FGLString" expectedLocation="expectedHere"/>
+                                        <WORDWRAPBOX name="lDatosReporte.fecha_nacimiento Value" designHints="fieldName:lDatosReporte.fecha_nacimiento;fieldRole:FormFieldValue" class="grwStringValue" y="85" width="170" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="{{lDatosReporte.fecha_nacimiento}}"/>
+                                    </MINIPAGE>
+                                    <MINIPAGE name="MiniPage44" width="min" length="10" layoutDirection="leftToRight"/>
+                                    <MINIPAGE name="MiniPage45" width="max" length="256" alignment="center" widthAdjustment="expandToParent" layoutDirection="leftToRight" borderTopWidth="0.5" borderRightWidth="0.5" borderBottomWidth="0.5" borderLeftWidth="0.5" borderStyle="solid">
+                                        <WORDBOX name="lDatosReporte.antiguedad Title" designHints="fieldName:lDatosReporte.antiguedad;fieldRole:FormFieldTitle" class="grwTableStringColumnTitle" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="Antiguedad para pensiones (días):" localizeText="true" paddingLeftWidth="4"/>
+                                        <rtl:input-variable name="lDatosReporte.antiguedad" type="FGLString" expectedLocation="expectedHere"/>
+                                        <WORDWRAPBOX name="lDatosReporte.nombre Value" designHints="fieldName:lDatosReporte.nombre;fieldRole:FormFieldValue" class="grwStringValue" y="130" width="124" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="{{lDatosReporte.antiguedad}}"/>
+                                    </MINIPAGE>
+                                </MINIPAGE>
+                                <MINIPAGE name="Separador1" width="18.5cm" length="min">
+                                    <WORDBOX name="WordBox6" floatingBehavior="enclosed" text=" "/>
+                                </MINIPAGE>
+                                <MINIPAGE name="Datosdelasolicitud" width="21.8" length="18.5cm" bgColor="#d9d9d9" layoutDirection="leftToRight">
+                                    <WORDBOX name="WordBox8" y="max/2" width="min" anchorX="1" anchorY="0.5" alignment="center" fontName="Arial" fontSize="10" floatingBehavior="enclosed" textAlignment="center" text="Datos de la solicitud"/>
+                                </MINIPAGE>
+                                <MINIPAGE name="Separador_size_6_1" width="max" length="8">
+                                    <WORDBOX name="WordBox10" floatingBehavior="enclosed" text=" "/>
+                                </MINIPAGE>
+                                <MINIPAGE name="MiniPage27" width="20" length="18.5cm" layoutDirection="leftToRight">
+                                    <MINIPAGE name="MiniPage46" width="max" length="256" alignment="center" layoutDirection="leftToRight" borderTopWidth="0.5" borderRightWidth="0.5" borderBottomWidth="0" borderLeftWidth="0.5" borderStyle="solid">
+                                        <WORDBOX name="lDatosReporte.folio_procesar Title" designHints="fieldName:lDatosReporte.folio_procesar;fieldRole:FormFieldTitle" class="grwTableStringColumnTitle" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" textAlignment="right" text="No. de seguridad social IMSS:" localizeText="true" paddingLeftWidth="5"/>
+                                        <rtl:input-variable name="lDatosReporte.nss_imss" type="FGLString" expectedLocation="expectedHere"/>
+                                        <WORDWRAPBOX name="lDatosReporte.folio_procesar Value" designHints="fieldName:lDatosReporte.folio_procesar;fieldRole:FormFieldValue" class="grwStringValue" y="118" width="137" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="{{lDatosReporte.nss_imss}}"/>
+                                    </MINIPAGE>
+                                    <MINIPAGE name="MiniPage66" width="min" length="10" layoutDirection="leftToRight"/>
+                                    <MINIPAGE name="MiniPage48" width="max" length="256" alignment="center" layoutDirection="leftToRight" borderTopWidth="0.5" borderRightWidth="0.5" borderBottomWidth="0" borderLeftWidth="0.5" borderStyle="solid">
+                                        <WORDBOX name="WordBox13" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="Resultado:" paddingLeftWidth="4"/>
+                                        <rtl:input-variable name="lDatosReporte.codigo_resultado" type="FGLString" expectedLocation="expectedHere"/>
+                                        <WORDWRAPBOX name="lDatosReporte.codigo_resultado Value1" designHints="fieldName:lDatosReporte.codigo_resultado;fieldRole:FormFieldValue" class="grwStringValue" y="110" width="143" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="{{lDatosReporte.codigo_resultado}}"/>
+                                    </MINIPAGE>
+                                </MINIPAGE>
+                            </MINIPAGE>
+                            <MINIPAGE name="MiniPage136" length="min" layoutDirection="leftToRight">
+                                <MINIPAGE name="MiniPage49" length="256" widthAdjustment="expandToParent" layoutDirection="leftToRight" borderTopWidth="0.5" borderRightWidth="0.5" borderBottomWidth="0" borderLeftWidth="0.5" borderStyle="solid">
+                                    <WORDBOX name="lDatosReporte.codigo_resultado Title" designHints="fieldName:lDatosReporte.codigo_resultado;fieldRole:FormFieldTitle" class="grwTableStringColumnTitle" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" textAlignment="right" text="Correo electrónico:" localizeText="true" paddingLeftWidth="5"/>
+                                    <rtl:input-variable name="lDatosReporte.correo" type="FGLString" expectedLocation="expectedHere"/>
+                                    <WORDWRAPBOX name="lDatosReporte.codigo_resultado Value" designHints="fieldName:lDatosReporte.codigo_resultado;fieldRole:FormFieldValue" class="grwStringValue" y="118" width="137" alignment="center" fontName="Arial" fontSize="8" text="{{lDatosReporte.correo}}"/>
+                                </MINIPAGE>
+                                <MINIPAGE name="MiniPage51" length="10" layoutDirection="leftToRight"/>
+                                <MINIPAGE name="MiniPage138" width="min" length="min" lengthAdjustment="expandToParent">
+                                    <MINIPAGE name="MiniPage67" length="256" widthAdjustment="expandToParent" layoutDirection="leftToRight" borderTopWidth="0.5" borderRightWidth="0.5" borderBottomWidth="0.5" borderLeftWidth="0.5" borderStyle="solid">
+                                        <WORDBOX name="lDatosReporte.motivo_rechazo Title1" designHints="fieldName:lDatosReporte.motivo_rechazo;fieldRole:FormFieldTitle" class="grwTableStringColumnTitle" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="Motivo Rechazo:" localizeText="true" paddingLeftWidth="4"/>
+                                        <MINIPAGE name="MiniPage140" width="min" length="46" layoutDirection="leftToRight"/>
+                                        <MINIPAGE name="MiniPage139" width="min" length="min" alignment="center">
+                                            <rtl:input-variable name="lDatosReporte.motivo_rechazo" type="FGLString" expectedLocation="expectedHere"/>
+                                            <WORDWRAPBOX name="lDatosReporte.motivo_rechazo Value1" designHints="fieldName:lDatosReporte.motivo_rechazo;fieldRole:FormFieldValue" class="grwStringValue" width="145" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="{{lDatosReporte.motivo_rechazo}}"/>
+                                        </MINIPAGE>
+                                    </MINIPAGE>
+                                </MINIPAGE>
+                            </MINIPAGE>
+                            <MINIPAGE name="MiniPage135" width="min" length="min" layoutDirection="leftToRight">
+                                <MINIPAGE name="MiniPage69" width="20" length="256" widthAdjustment="expandToParent" layoutDirection="leftToRight" borderTopWidth="0.5" borderRightWidth="0.5" borderBottomWidth="0.5" borderLeftWidth="0.5" borderStyle="solid">
+                                    <WORDBOX name="lDatosReporte.telefono Title" designHints="fieldName:lDatosReporte.telefono;fieldRole:FormFieldTitle" class="grwTableStringColumnTitle" width="min" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="Telefono:" localizeText="true" paddingLeftWidth="4"/>
+                                    <rtl:input-variable name="lDatosReporte.telefono" type="FGLString" expectedLocation="expectedHere"/>
+                                    <WORDWRAPBOX name="lDatosReporte.telefono Value" designHints="fieldName:lDatosReporte.telefono;fieldRole:FormFieldValue" class="grwStringValue" y="118" width="137" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="{{lDatosReporte.telefono}}"/>
+                                </MINIPAGE>
+                                <MINIPAGE name="MiniPage70" width="min" length="10" layoutDirection="leftToRight"/>
+                                <MINIPAGE name="MiniPage141" width="min" length="min">
+                                    <MINIPAGE name="MiniPage71" length="256" alignment="center" layoutDirection="leftToRight" borderTopWidth="0" borderRightWidth="0.5" borderBottomWidth="0.5" borderLeftWidth="0.5" borderStyle="solid">
+                                        <WORDBOX name="lDatosReporte.observaciones Title" designHints="fieldName:lDatosReporte.observaciones;fieldRole:FormFieldTitle" class="grwTableStringColumnTitle" alignment="center" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="Observaciones:" localizeText="true" paddingLeftWidth="4"/>
+                                        <MINIPAGE name="MiniPage140_1" width="min" length="49.6" layoutDirection="leftToRight"/>
+                                        <MINIPAGE name="MiniPage142" width="min" length="min" lengthAdjustment="expandToParent">
+                                            <rtl:input-variable name="lDatosReporte.observaciones" type="FGLString" expectedLocation="expectedHere"/>
+                                            <WORDWRAPBOX name="lDatosReporte.observaciones Value" designHints="fieldName:lDatosReporte.observaciones;fieldRole:FormFieldValue" class="grwStringValue" width="145" fontName="Arial" fontSize="8" floatingBehavior="enclosed" text="{{lDatosReporte.observaciones}}"/>
+                                        </MINIPAGE>
+                                    </MINIPAGE>
+                                </MINIPAGE>
+                            </MINIPAGE>
+                        </MINIPAGE>
+                    </rtl:match>
+                </MINIPAGE>
+            </rtl:match>
+        </PXML>
+    </rtl:stylesheet>
+</report:Report>

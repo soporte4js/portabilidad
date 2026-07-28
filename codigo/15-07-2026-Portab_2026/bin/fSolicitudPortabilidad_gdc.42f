@@ -1,0 +1,386 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Form name="fSolicitudPortabilidad_gdc.tmp" build="4.01.10" text="Transferencia de Derechos" width="91" height="70">
+  <LStr text="Transferencia de Derechos"/>
+  <Group name="group5" text="">
+    <LStr text=""/>
+    <Grid name="dsipe1" width="91" height="70" style="myGridLayoutEngine">
+      <Group name="group6" text="" hidden="1" style="mysubGroupWidget" posY="0" posX="1" gridWidth="81" gridHeight="4">
+        <LStr text=""/>
+        <Label name="label6" width="68" text="Portabilidad de derechos ISSSTE-IMSS" style="encabezados" posY="1" posX="1" gridWidth="68">
+          <LStr text="Portabilidad de derechos ISSSTE-IMSS"/>
+        </Label>
+        <HLine posY="2" posX="1" gridWidth="5"/>
+      </Group>
+      <Label name="label7" width="68" text="Datos registrados en la base de datos" style="encabezados" posY="5" posX="1" gridWidth="68">
+        <LStr text="Datos registrados en la base de datos"/>
+      </Label>
+      <Group name="group1" text="" style="myGroupWidget" posY="6" posX="1" gridWidth="81" gridHeight="7">
+        <LStr text=""/>
+        <Label name="cei_solicitud_curp_label1" width="10" text="CURP" justify="right" style="bold" posY="1" posX="1" gridWidth="10">
+          <LStr text="CURP"/>
+        </Label>
+        <FormField name="formonly.curp" colName="curp" sqlType="VARCHAR" fieldId="0" sqlTabName="formonly" tabIndex="11">
+          <Edit width="25" shift="up" scroll="1" posY="1" posX="12" gridWidth="25"/>
+        </FormField>
+        <Label name="label5" width="12" text="Régimen pensionario" justify="right" style="bold" posY="1" posX="42" gridWidth="12">
+          <LStr text="Régimen pensionario"/>
+        </Label>
+        <FormField name="formonly.regimen" colName="regimen" fieldId="1" sqlTabName="formonly" tabIndex="19">
+          <Edit width="25" justify="left" posY="1" posX="55" gridWidth="25"/>
+        </FormField>
+        <Label name="cei_solicitud_primer_apellido_label1" width="10" text="Primer Apellido" justify="right" style="bold" posY="2" posX="1" gridWidth="10">
+          <LStr text="Primer Apellido"/>
+        </Label>
+        <FormField name="formonly.primer_apellido" colName="primer_apellido" sqlType="VARCHAR" fieldId="2" sqlTabName="formonly" tabIndex="12" noEntry="1">
+          <Edit width="25" shift="up" scroll="1" posY="2" posX="12" gridWidth="25"/>
+        </FormField>
+        <Label name="label12" width="2" text="               " posY="2" posX="38" gridWidth="2">
+          <LStr text="               "/>
+        </Label>
+        <Label name="label17" width="12" text="No. de seguridad social" justify="right" style="bold" posY="2" posX="42" gridWidth="12">
+          <LStr text="No. de seguridad social"/>
+        </Label>
+        <FormField name="formonly.nss" colName="nss" fieldId="3" sqlTabName="formonly" noEntry="1" tabIndex="20">
+          <Edit width="25" justify="left" posY="2" posX="55" gridWidth="25"/>
+        </FormField>
+        <Label name="cei_solicitud_segundo_apellido_label1" width="10" text="Segundo Apellido" justify="right" style="bold" posY="3" posX="1" gridWidth="10">
+          <LStr text="Segundo Apellido"/>
+        </Label>
+        <FormField name="formonly.segundo_apellido" colName="segundo_apellido" sqlType="VARCHAR" fieldId="4" sqlTabName="formonly" tabIndex="18" noEntry="1">
+          <Edit width="25" shift="up" scroll="1" posY="3" posX="12" gridWidth="25"/>
+        </FormField>
+        <Label name="label10" width="12" text="Situación afiliatoria" justify="right" style="bold" posY="3" posX="42" gridWidth="12">
+          <LStr text="Situación afiliatoria"/>
+        </Label>
+        <FormField name="formonly.afiliatoria" colName="afiliatoria" fieldId="5" sqlTabName="formonly" tabIndex="21">
+          <Edit width="25" justify="left" posY="3" posX="55" gridWidth="25"/>
+        </FormField>
+        <Label name="cei_solicitud_nombre_label1" width="10" text="Nombre (s)" justify="right" style="bold" posY="4" posX="1" gridWidth="10">
+          <LStr text="Nombre (s)"/>
+        </Label>
+        <FormField name="formonly.nombre" colName="nombre" sqlType="VARCHAR" fieldId="6" sqlTabName="formonly" tabIndex="5" noEntry="1">
+          <Edit width="25" shift="up" scroll="1" posY="4" posX="12" gridWidth="25"/>
+        </FormField>
+        <Label name="label16" width="12" text="Fecha de baja" justify="right" style="bold" posY="4" posX="42" gridWidth="12">
+          <LStr text="Fecha de baja"/>
+        </Label>
+        <FormField name="formonly.fecha_baja" colName="fecha_baja" fieldId="7" sqlTabName="formonly" noEntry="1" tabIndex="22">
+          <Edit width="25" justify="left" posY="4" posX="55" gridWidth="25"/>
+        </FormField>
+        <Label name="label15" width="10" text="Fecha de Nacimiento" justify="right" style="bold" posY="5" posX="1" gridWidth="10">
+          <LStr text="Fecha de Nacimiento"/>
+        </Label>
+        <FormField name="formonly.fec_nac" colName="fec_nac" fieldId="8" sqlTabName="formonly" tabIndex="23">
+          <Edit width="25" posY="5" posX="12" gridWidth="25"/>
+        </FormField>
+        <Label name="label18" width="12" text="Antiguedad para pensiones (días)" justify="right" style="bold" posY="5" posX="42" gridWidth="12">
+          <LStr text="Antiguedad para pensiones (días)"/>
+        </Label>
+        <FormField name="formonly.antiguedad" colName="antiguedad" fieldId="9" sqlTabName="formonly" tabIndex="24">
+          <Edit width="25" justify="left" posY="5" posX="55" gridWidth="25"/>
+        </FormField>
+      </Group>
+      <Label name="label8" width="10" text="           " posY="13" posX="1" gridWidth="10">
+        <LStr text="           "/>
+      </Label>
+      <Label name="label13" width="68" text="Datos de la solicitud" style="encabezados" posY="15" posX="1" gridWidth="68">
+        <LStr text="Datos de la solicitud"/>
+      </Label>
+      <Group name="group2" text="" style="myGroupWidget" posY="16" posX="1" gridWidth="81" gridHeight="4">
+        <LStr text=""/>
+        <Label name="label1" width="10" text="No. de seguridad social IMSS" justify="left" style="bold" posY="1" posX="12" gridWidth="10">
+          <LStr text="No. de seguridad social IMSS"/>
+        </Label>
+        <Label name="cei_solicitud_correo_label1" width="10" text="Correo" justify="left" style="bold" posY="1" posX="33" gridWidth="10">
+          <LStr text="Correo"/>
+        </Label>
+        <Label name="cei_solicitud_telefono_label1" width="13" text="Teléfono" justify="left" style="bold" posY="1" posX="54" gridWidth="13">
+          <LStr text="Teléfono"/>
+        </Label>
+        <Label name="label14" width="10" text="                         " posY="2" posX="1" gridWidth="10">
+          <LStr text="                         "/>
+        </Label>
+        <FormField name="formonly.nss_imss" colName="nss_imss" fieldId="10" sqlTabName="formonly" tabIndex="16">
+          <Edit width="20" picture="###########" posY="2" posX="12" gridWidth="20"/>
+        </FormField>
+        <FormField name="formonly.correo" colName="correo" sqlType="VARCHAR" fieldId="11" sqlTabName="formonly" tabIndex="13">
+          <Edit width="20" shift="down" scroll="1" posY="2" posX="33" gridWidth="20"/>
+        </FormField>
+        <FormField name="formonly.telefono" colName="telefono" sqlType="VARCHAR" fieldId="12" sqlTabName="formonly" tabIndex="8">
+          <Edit width="20" scroll="1" picture="##########" posY="2" posX="54" gridWidth="20"/>
+        </FormField>
+      </Group>
+      <Label name="label9" width="10" text="           " posY="20" posX="1" gridWidth="10">
+        <LStr text="           "/>
+      </Label>
+      <Group name="group4" text="" posY="21" posX="57" gridWidth="25" gridHeight="3">
+        <LStr text=""/>
+        <Button name="cancel" width="10" text="Cancelar" posY="1" posX="3" gridWidth="10" tabIndex="25">
+          <LStr text="Cancelar"/>
+        </Button>
+        <Button name="btn_siguiente" width="10" text="Enviar" posY="1" posX="14" gridWidth="10" tabIndex="26">
+          <LStr text="Enviar"/>
+        </Button>
+      </Group>
+      <Label name="label19" width="68" text="Enviar Solicitud" hidden="1" style="encabezados" posY="24" posX="1" gridWidth="68">
+        <LStr text="Enviar Solicitud"/>
+      </Label>
+      <Group name="group3" text="" hidden="1" style="myGroupWidget" posY="25" posX="1" gridWidth="81" gridHeight="22">
+        <LStr text=""/>
+        <FormField name="formonly.txt_env_sol" colName="txt_env_sol" fieldId="13" sqlTabName="formonly" noEntry="1" tabIndex="27">
+          <Image width="70" height="9" autoScale="1" sizePolicy="fixed" posY="1" posX="8" gridWidth="70" gridHeight="9"/>
+        </FormField>
+        <Label name="label4" width="5" text="                              " posY="4" posX="1" gridWidth="5">
+          <LStr text="                              "/>
+        </Label>
+        <Label name="label11" width="5" text="                              " posY="11" posX="1" gridWidth="5">
+          <LStr text="                              "/>
+        </Label>
+        <Label name="label24" width="10" text="Nombre" style="bold" posY="11" posX="8" gridWidth="10">
+          <LStr text="Nombre"/>
+        </Label>
+        <FormField name="formonly.nombre_completo" colName="nombre_completo" fieldId="14" sqlTabName="formonly" tabIndex="28">
+          <Edit width="56" posY="11" posX="19" gridWidth="56"/>
+        </FormField>
+        <Label name="label23" width="10" text="RFC" style="bold" posY="12" posX="8" gridWidth="10">
+          <LStr text="RFC"/>
+        </Label>
+        <FormField name="formonly.rfc" colName="rfc" fieldId="15" sqlTabName="formonly" noEntry="1" tabIndex="29">
+          <Edit width="19" posY="12" posX="19" gridWidth="19"/>
+        </FormField>
+        <Label name="label2" width="67" text="Certificado (.cer)" justify="left" style="bold" posY="13" posX="8" gridWidth="67">
+          <LStr text="Certificado (.cer)"/>
+        </Label>
+        <FormField name="formonly.img_help" colName="img_help" fieldId="16" sqlTabName="formonly" noEntry="1" tabIndex="30">
+          <Image width="2" action="btn_ayuda" autoScale="1" sizePolicy="fixed" style="noborder" comment="¿Porque utilizar mi e.firma?" posY="13" posX="76" gridWidth="2">
+            <LStr comment="¿Porque utilizar mi e.firma?"/>
+          </Image>
+        </FormField>
+        <FormField name="formonly.l_val_cer" colName="l_val_cer" fieldId="17" sqlTabName="formonly" tabIndex="17">
+          <ButtonEdit width="65" action="btn_sel_cer" placeholder="Ubicación del certificado" notEditable="1" image="find" comment="Seleccione el archivo del certificado" posY="14" posX="8" gridWidth="67">
+            <LStr placeholder="Ubicación del certificado" comment="Seleccione el archivo del certificado"/>
+          </ButtonEdit>
+        </FormField>
+        <FormField name="formonly.img_cer_ok" colName="img_cer_ok" fieldId="18" sqlTabName="formonly" noEntry="1" tabIndex="31">
+          <Image width="2" autoScale="1" sizePolicy="fixed" posY="14" posX="76" gridWidth="2"/>
+        </FormField>
+        <Label name="label3" width="67" text="Clave privada (.key)" justify="left" style="bold" posY="15" posX="8" gridWidth="67">
+          <LStr text="Clave privada (.key)"/>
+        </Label>
+        <FormField name="formonly.l_val_key" colName="l_val_key" fieldId="19" sqlTabName="formonly" tabIndex="6">
+          <ButtonEdit width="65" action="btn_sel_key" placeholder="Ubicación de la llave privada" notEditable="1" image="find" fontPitch="fixed" comment="Seleccione el archivo de la llave privada" posY="16" posX="8" gridWidth="67">
+            <LStr placeholder="Ubicación de la llave privada" comment="Seleccione el archivo de la llave privada"/>
+          </ButtonEdit>
+        </FormField>
+        <FormField name="formonly.img_llave_ok" colName="img_llave_ok" fieldId="20" sqlTabName="formonly" noEntry="1" tabIndex="32">
+          <Image width="2" autoScale="1" sizePolicy="fixed" posY="16" posX="76" gridWidth="2"/>
+        </FormField>
+        <Label name="label25" width="16" text="Contraseña de clave privada" style="bold" posY="17" posX="8" gridWidth="16">
+          <LStr text="Contraseña de clave privada"/>
+        </Label>
+        <FormField name="formonly.password" colName="password" fieldId="21" sqlTabName="formonly" tabIndex="33">
+          <Edit width="67" placeholder="La contraseña es sensible a mayúsculas y minúsculas" isPassword="1" comment="La contraseña es sensible a mayúsculas y minúsculas" posY="18" posX="8" gridWidth="67">
+            <LStr placeholder="La contraseña es sensible a mayúsculas y minúsculas" comment="La contraseña es sensible a mayúsculas y minúsculas"/>
+          </Edit>
+        </FormField>
+      </Group>
+      <Group name="group7" text="" hidden="1" posY="47" posX="57" gridWidth="25" gridHeight="3">
+        <LStr text=""/>
+        <Button name="cancelar" width="10" text="Cancelar" posY="1" posX="3" gridWidth="10" tabIndex="34">
+          <LStr text="Cancelar"/>
+        </Button>
+        <Button name="btn_enviar" width="10" text="Enviar" posY="1" posX="14" gridWidth="10" tabIndex="35">
+          <LStr text="Enviar"/>
+        </Button>
+      </Group>
+      <Label name="label20" width="68" text="Solicitudes" hidden="1" style="encabezados" posY="50" posX="2" gridWidth="68">
+        <LStr text="Solicitudes"/>
+      </Label>
+      <Group name="group8" text="" hidden="1" posY="51" posX="2" gridWidth="89" gridHeight="8">
+        <LStr text=""/>
+        <Table pageSize="5" name="tblsolicitudes" width="86" posY="1" posX="2" gridWidth="86" gridHeight="6" tabName="scr_solicitudes">
+          <TableColumn name="formonly.folio" colName="folio" fieldId="22" sqlTabName="formonly" text="Folio" tabIndex="36">
+            <Edit width="8"/>
+            <LStr text="Folio"/>
+          </TableColumn>
+          <TableColumn name="formonly.fecha" colName="fecha" fieldId="23" sqlTabName="formonly" text="Fecha" tabIndex="37">
+            <Edit width="12"/>
+            <LStr text="Fecha"/>
+          </TableColumn>
+          <TableColumn name="formonly.a_nss_imss" colName="a_nss_imss" fieldId="24" sqlTabName="formonly" text="No. de Seguridad&#10;Social IMSS" tabIndex="38">
+            <Edit width="13" justify="center"/>
+            <LStr text="No. de Seguridad&#10;Social IMSS"/>
+          </TableColumn>
+          <TableColumn name="formonly.email" colName="email" fieldId="25" sqlTabName="formonly" text="Correo" tabIndex="39">
+            <Edit width="19"/>
+            <LStr text="Correo"/>
+          </TableColumn>
+          <TableColumn name="formonly.estatus" colName="estatus" fieldId="26" sqlTabName="formonly" text="Estatus" tabIndex="40">
+            <Edit width="8"/>
+            <LStr text="Estatus"/>
+          </TableColumn>
+          <TableColumn name="formonly.imagen_s" colName="imagen_s" fieldId="27" sqlTabName="formonly" text="Descargar&#10;Solicitud" noEntry="1" tabIndex="41">
+            <Image width="8" action="btn_descargar_solicitud" justify="center"/>
+            <LStr text="Descargar&#10;Solicitud"/>
+          </TableColumn>
+          <TableColumn name="formonly.imagen_r" colName="imagen_r" fieldId="28" sqlTabName="formonly" text="Descragar&#10;Resolución" noEntry="1" tabIndex="42">
+            <Image width="10" action="btn_descargar_resolucion" justify="center"/>
+            <LStr text="Descragar&#10;Resolución"/>
+          </TableColumn>
+        </Table>
+      </Group>
+      <Group name="group9" text="" hidden="1" posY="59" posX="57" gridWidth="27" gridHeight="3">
+        <LStr text=""/>
+        <Label name="label21" width="10" text="                                          " posY="1" posX="1" gridWidth="10">
+          <LStr text="                                          "/>
+        </Label>
+        <Button name="cancelar2" width="10" text="Cancelar" posY="1" posX="16" gridWidth="10" tabIndex="43">
+          <LStr text="Cancelar"/>
+        </Button>
+      </Group>
+      <Group name="group10" text="" hidden="1" posY="62" posX="57" gridWidth="27" gridHeight="3">
+        <LStr text=""/>
+        <Label name="label22" width="10" text="                                          " posY="1" posX="1" gridWidth="10">
+          <LStr text="                                          "/>
+        </Label>
+        <Button name="btn_nueva" width="10" text="Nueva Solicitud" posY="1" posX="16" gridWidth="10" tabIndex="44">
+          <LStr text="Nueva Solicitud"/>
+        </Button>
+      </Group>
+      <Label name="cei_solicitud_fecha_solicitud_label1" width="12" text="Fecha de Solicitud" hidden="1" justify="left" style="font_labels_field" posY="65" posX="2" gridWidth="12">
+        <LStr text="Fecha de Solicitud"/>
+      </Label>
+      <FormField name="formonly.fecha_solicitud" colName="fecha_solicitud" sqlType="DATETIME YEAR TO SECOND" fieldId="29" sqlTabName="formonly" tabIndex="1" noEntry="1" hidden="1">
+        <Edit width="25" scroll="1" posY="65" posX="15" gridWidth="25"/>
+      </FormField>
+      <Label name="cei_solicitud_id_aplicacion_label1" width="11" text="ID Aplicación" hidden="1" justify="right" style="px14" posY="65" posX="44" gridWidth="11">
+        <LStr text="ID Aplicación"/>
+      </Label>
+      <FormField name="formonly.id_aplicacion" colName="id_aplicacion" sqlType="INTEGER" fieldId="30" sqlTabName="formonly" tabIndex="3" noEntry="1" notNull="1" required="1" hidden="1">
+        <ComboBox width="18" scroll="1" posY="65" posX="56" gridWidth="20"/>
+      </FormField>
+      <FormField name="formonly.num_issste" colName="num_issste" fieldId="31" sqlTabName="formonly" hidden="1" tabIndex="45">
+        <Edit width="10" posY="65" posX="78" gridWidth="10"/>
+      </FormField>
+      <Label name="cei_solicitud_id_tiposolicitud_label1" width="11" text="ID Tipo Solicitud" hidden="1" justify="right" style="px14" posY="66" posX="3" gridWidth="11">
+        <LStr text="ID Tipo Solicitud"/>
+      </Label>
+      <FormField name="formonly.id_tiposolicitud" colName="id_tiposolicitud" sqlType="INTEGER" fieldId="32" sqlTabName="formonly" tabIndex="14" noEntry="1" notNull="1" required="1" hidden="1">
+        <ComboBox width="18" scroll="1" posY="66" posX="15" gridWidth="20"/>
+      </FormField>
+      <Label name="cei_solicitud_usuario_label1" width="11" text="Usuario" hidden="1" justify="right" posY="66" posX="44" gridWidth="11">
+        <LStr text="Usuario"/>
+      </Label>
+      <FormField name="formonly.usuario" colName="usuario" sqlType="VARCHAR" fieldId="33" sqlTabName="formonly" tabIndex="2" noEntry="1" hidden="1">
+        <Edit width="20" shift="up" scroll="1" posY="66" posX="56" gridWidth="20"/>
+      </FormField>
+      <Label name="cei_solicitud_observaciones_label1" width="13" text="Observaciones        " hidden="1" justify="left" style="font_labels_field" posY="67" posX="1" gridWidth="13">
+        <LStr text="Observaciones        "/>
+      </Label>
+      <FormField name="formonly.observaciones" colName="observaciones" sqlType="VARCHAR" fieldId="34" sqlTabName="formonly" tabIndex="15" hidden="1">
+        <Edit width="25" scroll="1" posY="67" posX="15" gridWidth="25"/>
+      </FormField>
+      <Label name="cei_solicitud_ip_maquina_label1" width="11" text="IP Maquina" hidden="1" justify="right" posY="67" posX="44" gridWidth="11">
+        <LStr text="IP Maquina"/>
+      </Label>
+      <FormField name="formonly.ip_maquina" colName="ip_maquina" sqlType="VARCHAR" fieldId="35" sqlTabName="formonly" tabIndex="9" hidden="1">
+        <Edit width="20" scroll="1" posY="67" posX="56" gridWidth="20"/>
+      </FormField>
+      <Label name="cei_solicitud_folio_solicitud_label1" width="11" text="Folio Solicitud" hidden="1" justify="right" style="px14" posY="68" posX="3" gridWidth="11">
+        <LStr text="Folio Solicitud"/>
+      </Label>
+      <FormField name="formonly.folio_solicitud" colName="folio_solicitud" sqlType="BIGINT" fieldId="36" sqlTabName="formonly" tabIndex="4" noEntry="1" hidden="1">
+        <Edit width="20" scroll="1" posY="68" posX="15" gridWidth="20"/>
+      </FormField>
+      <Label name="cei_solicitud_id_motivorechazo_label1" width="11" text="ID Motivo de Rechazo" hidden="1" justify="right" posY="68" posX="44" gridWidth="11">
+        <LStr text="ID Motivo de Rechazo"/>
+      </Label>
+      <FormField name="formonly.id_motivorechazo" colName="id_motivorechazo" sqlType="INTEGER" fieldId="37" sqlTabName="formonly" tabIndex="7" noEntry="1" hidden="1">
+        <Edit width="20" scroll="1" posY="68" posX="56" gridWidth="20"/>
+      </FormField>
+      <Label name="cei_solicitud_id_estatus_label1" width="12" text="ID Estatus" hidden="1" justify="right" posY="69" posX="43" gridWidth="12">
+        <LStr text="ID Estatus"/>
+      </Label>
+      <FormField name="formonly.id_estatus" colName="id_estatus" sqlType="INTEGER" fieldId="38" sqlTabName="formonly" tabIndex="10" noEntry="1" hidden="1">
+        <Edit width="20" scroll="1" posY="69" posX="56" gridWidth="20"/>
+      </FormField>
+    </Grid>
+  </Group>
+  <RecordView tabName="formonly">
+    <Link colName="curp" fieldIdRef="0"/>
+    <Link colName="regimen" fieldIdRef="1"/>
+    <Link colName="primer_apellido" fieldIdRef="2"/>
+    <Link colName="nss" fieldIdRef="3"/>
+    <Link colName="segundo_apellido" fieldIdRef="4"/>
+    <Link colName="afiliatoria" fieldIdRef="5"/>
+    <Link colName="nombre" fieldIdRef="6"/>
+    <Link colName="fecha_baja" fieldIdRef="7"/>
+    <Link colName="fec_nac" fieldIdRef="8"/>
+    <Link colName="antiguedad" fieldIdRef="9"/>
+    <Link colName="nss_imss" fieldIdRef="10"/>
+    <Link colName="correo" fieldIdRef="11"/>
+    <Link colName="telefono" fieldIdRef="12"/>
+    <Link colName="txt_env_sol" fieldIdRef="13"/>
+    <Link colName="nombre_completo" fieldIdRef="14"/>
+    <Link colName="rfc" fieldIdRef="15"/>
+    <Link colName="img_help" fieldIdRef="16"/>
+    <Link colName="l_val_cer" fieldIdRef="17"/>
+    <Link colName="img_cer_ok" fieldIdRef="18"/>
+    <Link colName="l_val_key" fieldIdRef="19"/>
+    <Link colName="img_llave_ok" fieldIdRef="20"/>
+    <Link colName="password" fieldIdRef="21"/>
+    <Link colName="folio" fieldIdRef="22"/>
+    <Link colName="fecha" fieldIdRef="23"/>
+    <Link colName="a_nss_imss" fieldIdRef="24"/>
+    <Link colName="email" fieldIdRef="25"/>
+    <Link colName="estatus" fieldIdRef="26"/>
+    <Link colName="imagen_s" fieldIdRef="27"/>
+    <Link colName="imagen_r" fieldIdRef="28"/>
+    <Link colName="fecha_solicitud" fieldIdRef="29"/>
+    <Link colName="id_aplicacion" fieldIdRef="30"/>
+    <Link colName="num_issste" fieldIdRef="31"/>
+    <Link colName="id_tiposolicitud" fieldIdRef="32"/>
+    <Link colName="usuario" fieldIdRef="33"/>
+    <Link colName="observaciones" fieldIdRef="34"/>
+    <Link colName="ip_maquina" fieldIdRef="35"/>
+    <Link colName="folio_solicitud" fieldIdRef="36"/>
+    <Link colName="id_motivorechazo" fieldIdRef="37"/>
+    <Link colName="id_estatus" fieldIdRef="38"/>
+  </RecordView>
+  <RecordView tabName="record1">
+    <Link colName="folio_solicitud" fieldIdRef="36"/>
+    <Link colName="id_tiposolicitud" fieldIdRef="32"/>
+    <Link colName="id_aplicacion" fieldIdRef="30"/>
+    <Link colName="fecha_solicitud" fieldIdRef="29"/>
+    <Link colName="curp" fieldIdRef="0"/>
+    <Link colName="primer_apellido" fieldIdRef="2"/>
+    <Link colName="segundo_apellido" fieldIdRef="4"/>
+    <Link colName="nombre" fieldIdRef="6"/>
+    <Link colName="correo" fieldIdRef="11"/>
+    <Link colName="telefono" fieldIdRef="12"/>
+    <Link colName="usuario" fieldIdRef="33"/>
+    <Link colName="ip_maquina" fieldIdRef="35"/>
+    <Link colName="observaciones" fieldIdRef="34"/>
+    <Link colName="id_motivorechazo" fieldIdRef="37"/>
+    <Link colName="id_estatus" fieldIdRef="38"/>
+    <Link colName="nss_imss" fieldIdRef="10"/>
+    <Link colName="l_val_cer" fieldIdRef="17"/>
+    <Link colName="l_val_key" fieldIdRef="19"/>
+    <Link colName="img_cer_ok" fieldIdRef="18"/>
+    <Link colName="img_llave_ok" fieldIdRef="20"/>
+    <Link colName="regimen" fieldIdRef="1"/>
+    <Link colName="afiliatoria" fieldIdRef="5"/>
+    <Link colName="img_help" fieldIdRef="16"/>
+    <Link colName="fec_nac" fieldIdRef="8"/>
+    <Link colName="fecha_baja" fieldIdRef="7"/>
+    <Link colName="nss" fieldIdRef="3"/>
+    <Link colName="antiguedad" fieldIdRef="9"/>
+    <Link colName="rfc" fieldIdRef="15"/>
+    <Link colName="nombre_completo" fieldIdRef="14"/>
+    <Link colName="password" fieldIdRef="21"/>
+    <Link colName="num_issste" fieldIdRef="31"/>
+  </RecordView>
+  <RecordView tabName="record2">
+    <Link colName="txt_env_sol" fieldIdRef="13"/>
+  </RecordView>
+</Form>

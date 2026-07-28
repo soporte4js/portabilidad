@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm fileVersion="40100" gstVersion="40106" name="managedform" uid="{3a052b6f-0238-4141-b78e-be7bf8a725fb}">
+  <AGSettings>
+    <DynamicProperties version="4"/>
+  </AGSettings>
+  <Record name="record1" uid="{56cb9fa4-8749-4849-9db7-c5088a5dcd9f}"/>
+  <Form fourSTFile="../resources/estilos.4st" gridHeight="8" gridWidth="57" name="form" style="dialog" text="Transferencia de Derechos">
+    <Grid gridHeight="7" gridWidth="56" name="grid1" posX="0" posY="0">
+      <Label gridHeight="1" gridWidth="5" name="label5" posX="25" posY="0" text="      "/>
+      <Label gridHeight="1" gridWidth="5" name="label3" posX="2" posY="2" text="      "/>
+      <Label gridHeight="3" gridWidth="40" justify="left" name="label1" posX="8" posY="2" text="Se localizo más de un registro con la misma CURP, deberá de acudir a la&#10;representación estatal o regional del ISSSTE más cercana a su domicilio&#10;para solicitar la unificación de registros."/>
+      <Label gridHeight="1" gridWidth="5" name="label4" posX="49" posY="2" text="      "/>
+      <Label gridHeight="1" gridWidth="10" name="label2" posX="23" posY="5" text="     "/>
+      <Button gridHeight="1" gridWidth="10" name="accept" posX="23" posY="6" tabIndex="-1" text="Aceptar"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewA1ADYAYwBiADkAZgBhADQALQA4ADcANAA5AC0ANAA4ADQAOQAtADkAZABiADcALQBjADUAMAA4ADgAYQA1AGQAYwBkADkAZgB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

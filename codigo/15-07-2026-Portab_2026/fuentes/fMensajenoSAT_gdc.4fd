@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm fileVersion="40100" gstVersion="40106" name="managedform" uid="{3a052b6f-0238-4141-b78e-be7bf8a725fb}">
+  <AGSettings>
+    <DynamicProperties version="4"/>
+  </AGSettings>
+  <Record name="record1" uid="{56cb9fa4-8749-4849-9db7-c5088a5dcd9f}"/>
+  <Form fourSTFile="../resources/estilos.4st" gridHeight="8" gridWidth="41" name="form" style="dialog" text="Transferencia de Derechos">
+    <Grid gridHeight="7" gridWidth="40" name="grid1" posX="0" posY="0">
+      <Label gridHeight="1" gridWidth="5" name="label5" posX="17" posY="0" text="      "/>
+      <Label gridHeight="1" gridWidth="5" name="label3" posX="2" posY="2" text="      "/>
+      <Label gridHeight="3" gridWidth="25" justify="left" name="label1" posX="8" posY="2" text="La solicitud no logró firmarse de forma exitosa,&#10;por favor verifique sus credenciales."/>
+      <Label gridHeight="1" gridWidth="5" name="label4" posX="34" posY="2" text="      "/>
+      <Label gridHeight="1" gridWidth="10" name="label2" posX="15" posY="5" text="     "/>
+      <Button gridHeight="1" gridWidth="10" name="accept" posX="15" posY="6" tabIndex="-1" text="Aceptar"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewA1ADYAYwBiADkAZgBhADQALQA4ADcANAA5AC0ANAA4ADQAOQAtADkAZABiADcALQBjADUAMAA4ADgAYQA1AGQAYwBkADkAZgB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

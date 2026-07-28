@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Form name="faDescargaSolicitudes.tmp" build="4.01.10" text="Transferencia de Derechos" width="133" height="23">
+  <LStr text="Transferencia de Derechos"/>
+  <HBox name="hbox1">
+    <Grid name="grid1" width="133" height="23">
+      <FormField name="formonly.img_solicitud" colName="img_solicitud" fieldId="0" sqlTabName="formonly" noEntry="1" tabIndex="1">
+        <Image width="10" posY="2" posX="34" gridWidth="10"/>
+      </FormField>
+      <Table pageSize="5" name="table1" width="128" posY="4" posX="4" gridWidth="128" gridHeight="10" tabName="scr_arrsoldes">
+        <TableColumn name="formonly.folio" colName="folio" fieldId="1" sqlTabName="formonly" text="Folio" tabIndex="2">
+          <Edit width="7"/>
+          <LStr text="Folio"/>
+        </TableColumn>
+        <TableColumn name="formonly.fecha" colName="fecha" fieldId="2" sqlTabName="formonly" text="Fecha" tabIndex="3">
+          <Edit width="13" justify="center"/>
+          <LStr text="Fecha"/>
+        </TableColumn>
+        <TableColumn name="formonly.nss" colName="nss" fieldId="3" sqlTabName="formonly" text="NSS IMSS" tabIndex="4">
+          <Edit width="13" justify="center"/>
+          <LStr text="NSS IMSS"/>
+        </TableColumn>
+        <TableColumn name="formonly.correo" colName="correo" fieldId="4" sqlTabName="formonly" text="Correo" hidden="1" tabIndex="5">
+          <Edit width="17" justify="center"/>
+          <LStr text="Correo"/>
+        </TableColumn>
+        <TableColumn name="formonly.telefono" colName="telefono" fieldId="5" sqlTabName="formonly" text="Teléfono" hidden="1" tabIndex="6">
+          <Edit width="15" justify="center"/>
+          <LStr text="Teléfono"/>
+        </TableColumn>
+        <TableColumn name="formonly.estatus" colName="estatus" fieldId="6" sqlTabName="formonly" text="Resultado" tabIndex="7">
+          <Edit width="16"/>
+          <LStr text="Resultado"/>
+        </TableColumn>
+        <TableColumn name="formonly.solicitud" colName="solicitud" fieldId="7" sqlTabName="formonly" text="Solicitud" noEntry="1" tabIndex="8">
+          <Image width="15" action="btn_solicitud" justify="center"/>
+          <LStr text="Solicitud"/>
+        </TableColumn>
+        <TableColumn name="formonly.resolucion" colName="resolucion" fieldId="8" sqlTabName="formonly" text="Resolución" noEntry="1" tabIndex="9">
+          <Image width="18" action="btn_resolucion" justify="center"/>
+          <LStr text="Resolución"/>
+        </TableColumn>
+      </Table>
+      <Button name="cancel" width="10" text="Cancelar" posY="14" posX="111" gridWidth="10" tabIndex="10">
+        <LStr text="Cancelar"/>
+      </Button>
+      <Button name="btn_nueva" width="10" text="Nueva Solicitud" posY="14" posX="122" gridWidth="10" tabIndex="11">
+        <LStr text="Nueva Solicitud"/>
+      </Button>
+      <Group name="descargargdc" text="" hidden="1" posY="15" posX="59" gridWidth="30" gridHeight="3">
+        <LStr text=""/>
+        <Button name="btn_des_sol" width="10" text="" posY="1" posX="2" gridWidth="10" tabIndex="12">
+          <LStr text=""/>
+        </Button>
+        <Button name="btn_des_res" width="10" text="" posY="1" posX="18" gridWidth="10" tabIndex="13">
+          <LStr text=""/>
+        </Button>
+      </Group>
+    </Grid>
+  </HBox>
+  <RecordView tabName="formonly">
+    <Link colName="img_solicitud" fieldIdRef="0"/>
+    <Link colName="folio" fieldIdRef="1"/>
+    <Link colName="fecha" fieldIdRef="2"/>
+    <Link colName="nss" fieldIdRef="3"/>
+    <Link colName="correo" fieldIdRef="4"/>
+    <Link colName="telefono" fieldIdRef="5"/>
+    <Link colName="estatus" fieldIdRef="6"/>
+    <Link colName="solicitud" fieldIdRef="7"/>
+    <Link colName="resolucion" fieldIdRef="8"/>
+  </RecordView>
+  <RecordView tabName="record2">
+    <Link colName="img_solicitud" fieldIdRef="0"/>
+  </RecordView>
+</Form>

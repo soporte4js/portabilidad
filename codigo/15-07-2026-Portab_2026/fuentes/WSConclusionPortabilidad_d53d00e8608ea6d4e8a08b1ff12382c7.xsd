@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is Oracle JAX-WS 2.1.5. --><xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://ws.soap.semanascotizadas.cit.imss.gob.mx/" version="1.0" targetNamespace="http://ws.soap.semanascotizadas.cit.imss.gob.mx/">
+
+<xs:element name="concluirPortabilidad" type="tns:concluirPortabilidad"/>
+
+<xs:element name="concluirPortabilidadResponse" type="tns:concluirPortabilidadResponse"/>
+
+<xs:element name="respuestaWS" type="tns:respuestaWS"/>
+
+<xs:complexType name="concluirPortabilidad">
+<xs:sequence>
+<xs:element name="institutoReceptor" type="xs:string" minOccurs="0"/>
+<xs:element name="nss" type="xs:string" minOccurs="0"/>
+<xs:element name="curp" type="xs:string" minOccurs="0"/>
+<xs:element name="folioTramiteReceptor" type="xs:string" minOccurs="0"/>
+<xs:element name="resultadoIntegracionPortabilidad" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="concluirPortabilidadResponse">
+<xs:sequence>
+<xs:element name="resultado" type="tns:respuestaWS" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="respuestaWS">
+<xs:sequence>
+<xs:element name="claveError" type="xs:int" minOccurs="0"/>
+<xs:element name="mensajeError" type="xs:string" minOccurs="0"/>
+<xs:element name="codigoResultado" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="motivoRechazo" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

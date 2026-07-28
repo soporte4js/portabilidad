@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm fileVersion="40100" gstVersion="40106" name="managedform" uid="{63598170-32ce-4a19-b393-8a2618fa7bad}">
+  <AGSettings>
+    <DynamicProperties version="4"/>
+  </AGSettings>
+  <Record name="scr_arrsoldes" uid="{1a8eaeed-2ea7-4528-8f75-e7251fe8c74d}">
+    <RecordField fieldIdRef="1" name="folio" uid="{a1fcf3c7-3aa1-4f2c-ad18-73433f56bc51}"/>
+    <RecordField fieldIdRef="2" name="fecha" uid="{5f7d50e9-916c-4e9c-877b-f8a60ff1919f}"/>
+    <RecordField fieldIdRef="4" name="nss" uid="{b732b9bd-7c0e-4cf4-b1c7-77f5f8bbc48c}"/>
+    <RecordField fieldIdRef="5" name="correo" uid="{ae195056-0580-42d2-accc-356dadbc01d4}"/>
+    <RecordField fieldIdRef="6" name="telefono" uid="{e73e3662-bdaa-4601-b2b9-b885f9a111eb}"/>
+    <RecordField fieldIdRef="7" name="estatus" uid="{e8272890-744d-468a-98fc-5e93854b0cc3}"/>
+    <RecordField fieldIdRef="8" name="solicitud" uid="{28706680-bdd8-42f1-b6e5-296413c36799}"/>
+    <RecordField fieldIdRef="9" name="resolucion" uid="{6975e6d9-3287-4e22-9d67-e1e7adbe2018}"/>
+  </Record>
+  <Record name="record2" uid="{e1d63f70-d308-4aca-88e0-4e4f40a00cac}">
+    <RecordField fieldIdRef="3" name="img_solicitud" uid="{e5fe5912-4b64-48a1-aa6f-177ae61e46fa}"/>
+  </Record>
+  <Form gridHeight="25" gridWidth="140" name="form" text="Transferencia de Derechos">
+    <HBox gridHeight="23" gridWidth="137" name="hbox1" posX="0" posY="0">
+      <Grid gridHeight="23" gridWidth="133" name="grid1" posX="2" posY="0">
+        <FFImage fieldId="3" gridHeight="1" gridWidth="10" name="img_solicitud" posX="34" posY="2" title="ffimage1" widget="FFImage"/>
+        <Table gridHeight="10" gridWidth="128" name="table1" posX="4" posY="4" totalRows="5">
+          <Edit fieldId="1" gridHeight="1" gridWidth="7" name="folio" posX="0" posY="0" tabIndex="-1" title="Folio" widget="Edit"/>
+          <Edit fieldId="2" gridHeight="1" gridWidth="13" justify="center" name="fecha" posX="7" posY="0" tabIndex="-1" title="Fecha" widget="Edit"/>
+          <Edit fieldId="4" gridHeight="1" gridWidth="13" justify="center" name="nss" posX="20" posY="0" tabIndex="-1" title="NSS IMSS" widget="Edit"/>
+          <Edit fieldId="5" gridHeight="1" gridWidth="17" hidden="true" justify="center" name="correo" posX="33" posY="0" tabIndex="-1" title="Correo" widget="Edit"/>
+          <Edit fieldId="6" gridHeight="1" gridWidth="15" hidden="true" justify="center" name="telefono" posX="50" posY="0" tabIndex="-1" title="Teléfono" widget="Edit"/>
+          <Edit fieldId="7" gridHeight="1" gridWidth="16" name="estatus" posX="65" posY="0" tabIndex="-1" title="Resultado" widget="Edit"/>
+          <FFImage action="btn_solicitud" fieldId="8" gridHeight="1" gridWidth="15" justify="center" name="solicitud" posX="81" posY="0" title="Solicitud" widget="FFImage"/>
+          <FFImage action="btn_resolucion" fieldId="9" gridHeight="1" gridWidth="18" justify="center" name="resolucion" posX="96" posY="0" title="Resolución" widget="FFImage"/>
+        </Table>
+        <Group gridHeight="4" gridWidth="28" hidden="true" name="descargargdc" posX="103" posY="14" text="">
+          <Button gridHeight="2" gridWidth="10" name="btn_des_sol" posX="1" posY="1" tabIndex="-1" text="Descargar&#10;Solicitud"/>
+          <Button gridHeight="2" gridWidth="10" name="btn_des_res" posX="13" posY="1" tabIndex="-1" text="Descargar&#10;Resolución"/>
+        </Group>
+        <Button gridHeight="1" gridWidth="10" name="cancel" posX="111" posY="19" tabIndex="-1" text="Cancelar"/>
+        <Button gridHeight="1" gridWidth="10" name="btn_nueva" posX="122" posY="19" tabIndex="-1" text="Nueva Solicitud"/>
+      </Grid>
+    </HBox>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewBlADEAZAA2ADMAZgA3ADAALQBkADMAMAA4AC0ANABhAGMAYQAtADgAOABlADAALQA0AGUANABmADQAMABhADAAMABjAGEAYwB9wGFmZqemZtlAKAAAWgAAoD9wYk3S8an8AQAAAEwAewAxAGEAOABlAGEAZQBlAGQALQAyAGUAYQA3AC0ANAA1ADIAOAAtADgAZgA3ADUALQBlADcAMgA1ADEAZgBlADgAYwA3ADQAZAB9QCAAADwAAGlAIAAAPAAAaT90euFHrhR7AQ==]]>
+  </DiagramLayout>
+</ManagedForm>

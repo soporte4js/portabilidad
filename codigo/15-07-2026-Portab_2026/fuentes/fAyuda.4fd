@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<ManagedForm fileVersion="40100" gstVersion="40106" name="managedform" uid="{25b75cc1-e1ad-4d41-8bc5-acbc03e316e4}">
+  <AGSettings>
+    <DynamicProperties version="4"/>
+  </AGSettings>
+  <Record name="record1" uid="{13a439a5-e116-48ce-8d13-48e80277c40c}">
+    <RecordField fieldIdRef="1" name="txt_env_sol" uid="{0313b942-7f22-4db9-a4e9-88aa53878d5e}"/>
+  </Record>
+  <Form gridHeight="25" gridWidth="80" name="" text="Transferencia de Derechos">
+    <Grid gridHeight="10" gridWidth="69" name="grid1" posX="3" posY="1">
+      <FFImage fieldId="1" gridHeight="5" gridWidth="46" name="txt_env_sol" posX="9" posY="2" title="ffimage1" widget="FFImage"/>
+      <Button gridHeight="1" gridWidth="10" name="accept" posX="28" posY="8" tabIndex="-1" text="Aceptar"/>
+    </Grid>
+  </Form>
+  <DiagramLayout>
+    <![CDATA[AAAAAgAAAEwAewAxADMAYQA0ADMAOQBhADUALQBlADEAMQA2AC0ANAA4AGMAZQAtADgAZAAxADMALQA0ADgAZQA4ADAAMgA3ADcAYwA0ADAAYwB9AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ==]]>
+  </DiagramLayout>
+</ManagedForm>

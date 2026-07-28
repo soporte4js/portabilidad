@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Form name="fMensajeER.tmp" build="4.01.10" text="Transferencia de Derechos" style="dialog" width="55" height="7">
+  <LStr text="Transferencia de Derechos"/>
+  <Grid name="grid1" width="55" height="7">
+    <Label name="label5" width="5" text="      " posY="0" posX="25" gridWidth="5">
+      <LStr text="      "/>
+    </Label>
+    <Label name="label3" width="5" text="      " posY="2" posX="2" gridWidth="5">
+      <LStr text="      "/>
+    </Label>
+    <Label name="label1" width="40" height="3" text="Se localizo más de un registro con la misma CURP, deberá de acudir a la&#10;representación estatal o regional del ISSSTE más cercana a su domicilio&#10;para solicitar la unificación de registros." justify="left" posY="2" posX="8" gridWidth="40" gridHeight="3">
+      <LStr text="Se localizo más de un registro con la misma CURP, deberá de acudir a la&#10;representación estatal o regional del ISSSTE más cercana a su domicilio&#10;para solicitar la unificación de registros."/>
+    </Label>
+    <Label name="label4" width="5" text="      " posY="2" posX="49" gridWidth="5">
+      <LStr text="      "/>
+    </Label>
+    <Label name="label2" width="10" text="     " posY="5" posX="23" gridWidth="10">
+      <LStr text="     "/>
+    </Label>
+    <Button name="accept" width="10" text="Aceptar" posY="6" posX="23" gridWidth="10" tabIndex="1">
+      <LStr text="Aceptar"/>
+    </Button>
+  </Grid>
+</Form>

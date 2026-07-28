@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- Published by JAX-WS RI at http://jax-ws.dev.java.net. RI's version is Oracle JAX-WS 2.1.5. --><xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://ws.soap.semanascotizadas.cit.imss.gob.mx/" version="1.0" targetNamespace="http://ws.soap.semanascotizadas.cit.imss.gob.mx/">
+
+<xs:element name="getEstatusAsegurado" type="tns:getEstatusAsegurado"/>
+
+<xs:element name="getEstatusAseguradoResponse" type="tns:getEstatusAseguradoResponse"/>
+
+<xs:element name="respuestaEstatusAsegurado" type="tns:RespuestaEstatusAsegurado"/>
+
+<xs:element name="respuestaWS" type="tns:respuestaWS"/>
+
+<xs:complexType name="getEstatusAsegurado">
+<xs:sequence>
+<xs:element name="institutoReceptor" type="xs:string" minOccurs="0"/>
+<xs:element name="nss" type="xs:string" minOccurs="0"/>
+<xs:element name="curp" type="xs:string" minOccurs="0"/>
+<xs:element name="fechaTramite" type="xs:string" minOccurs="0"/>
+<xs:element name="correo" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="getEstatusAseguradoResponse">
+<xs:sequence>
+<xs:element name="return" type="tns:RespuestaEstatusAsegurado" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="RespuestaEstatusAsegurado">
+<xs:complexContent>
+<xs:extension base="tns:respuestaWS">
+<xs:sequence>
+<xs:element name="curp" type="xs:string" minOccurs="0"/>
+<xs:element name="primerApellido" type="xs:string" minOccurs="0"/>
+<xs:element name="segundoApellido" type="xs:string" minOccurs="0"/>
+<xs:element name="nombre" type="xs:string" minOccurs="0"/>
+<xs:element name="nss" type="xs:string" minOccurs="0"/>
+<xs:element name="fechaDeBaja" type="xs:string" minOccurs="0"/>
+<xs:element name="observaciones" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:extension>
+</xs:complexContent>
+</xs:complexType>
+
+<xs:complexType name="respuestaWS">
+<xs:sequence>
+<xs:element name="claveError" type="xs:int" minOccurs="0"/>
+<xs:element name="mensajeError" type="xs:string" minOccurs="0"/>
+<xs:element name="codigoResultado" type="xs:string" nillable="true" minOccurs="0"/>
+<xs:element name="motivoRechazo" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>

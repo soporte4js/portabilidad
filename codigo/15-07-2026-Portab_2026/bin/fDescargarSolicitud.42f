@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Form name="fDescargarSolicitud.tmp" build="4.01.10" text="Transferencia de Derechos" width="43" height="6">
+  <LStr text="Transferencia de Derechos"/>
+  <Grid name="grid1" width="43" height="6">
+    <Group name="group1" text="Solicitud" posY="1" posX="1" gridWidth="42" gridHeight="3">
+      <LStr text="Solicitud"/>
+      <FormField name="formonly.documento_descargar" colName="documento_descargar" fieldId="0" sqlTabName="formonly" tabIndex="1">
+        <Edit width="40" posY="1" posX="1" gridWidth="40"/>
+      </FormField>
+    </Group>
+    <Button name="btn_descargar" width="10" text="Descargar" posY="4" posX="11" gridWidth="10" tabIndex="2">
+      <LStr text="Descargar"/>
+    </Button>
+    <Button name="cancel" width="10" text="Cancelar" posY="4" posX="22" gridWidth="10" tabIndex="3">
+      <LStr text="Cancelar"/>
+    </Button>
+  </Grid>
+  <RecordView tabName="formonly">
+    <Link colName="documento_descargar" fieldIdRef="0"/>
+  </RecordView>
+  <RecordView tabName="record1">
+    <Link colName="documento_descargar" fieldIdRef="0"/>
+  </RecordView>
+</Form>

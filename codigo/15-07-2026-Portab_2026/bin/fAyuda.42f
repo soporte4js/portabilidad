@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='windows-1252'?>
+<Form name="fAyuda.tmp" build="4.01.10" text="Transferencia de Derechos" width="56" height="10">
+  <LStr text="Transferencia de Derechos"/>
+  <Grid name="grid1" width="56" height="10">
+    <FormField name="formonly.txt_env_sol" colName="txt_env_sol" fieldId="0" sqlTabName="formonly" noEntry="1" tabIndex="1">
+      <Image width="46" height="5" posY="2" posX="9" gridWidth="46" gridHeight="5"/>
+    </FormField>
+    <Button name="accept" width="10" text="Aceptar" posY="8" posX="28" gridWidth="10" tabIndex="2">
+      <LStr text="Aceptar"/>
+    </Button>
+  </Grid>
+  <RecordView tabName="formonly">
+    <Link colName="txt_env_sol" fieldIdRef="0"/>
+  </RecordView>
+  <RecordView tabName="record1">
+    <Link colName="txt_env_sol" fieldIdRef="0"/>
+  </RecordView>
+</Form>

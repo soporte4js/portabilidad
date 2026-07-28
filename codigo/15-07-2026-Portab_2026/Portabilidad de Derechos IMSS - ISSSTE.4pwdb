@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<WorkspaceDatabase fileContentsEncoding="CP1252" version="3.0">
+<File n="fuentes/authcallback.4gl" s="1" ts="20260715173617457"/>
+<File n="fuentes/clienteCNSF.4gl" s="1" ts="20260715173623036"/>
+<File n="fuentes/clienteDictamenBeneficioPensionario.4gl" s="1" ts="20260715173627019"/>
+<File n="fuentes/clienteSaldosPreliminar.4gl" s="1" ts="20260715173632170"/>
+<File n="fuentes/clienteSAT.4gl" s="1" ts="20260715173636247"/>
+<File n="fuentes/clienteWS1ConsultaBasicaIMSS.4gl" s="1" ts="20260715173640129"/>
+<File n="fuentes/clienteWS2DeterminacionProcesar.4gl" s="1" ts="20260715173651391"/>
+<File n="fuentes/clienteWS3ConsultaRobustaIMSS.4gl" s="1" ts="20260715173655411"/>
+<File n="fuentes/clienteWS4NotificarProcesar.4gl" s="1" ts="20260715173707200"/>
+<File n="fuentes/clienteWS5ActualizarProcesar.4gl" s="1" ts="20260715173709881"/>
+<File n="fuentes/clienteWS6AvisoEstatusTransferenciaIMSS.4gl" s="1" ts="20260715173714508"/>
+<File n="fuentes/lReporteSolicitud.4gl" s="1" ts="20260727163019887"/>
+<File n="fuentes/lValidacionesPortabilidad.4gl" s="1" ts="20260715173736376"/>
+<File n="fuentes/ConsultaPorCurpService_ConsultaPorCurpServiceHttpsSoap12Endpoint.4gl" s="1" ts="20260715173739905"/>
+<File n="fuentes/ConsultaCurpDetalleService_ConsultaCurpDetalleServiceHttpsSoap12Endpoint.4gl" s="1" ts="20260715173743853">
+<Ref t="fuentes/ConsultaCurpDetalleService_ConsultaCurpDetalleServiceHttpsSoap12Endpoint.inc"/>
+</File>
+<File n="fuentes/ConsultaCurpDetalleService_ConsultaCurpDetalleServiceHttpsSoap12Endpoint.inc" s="1" ts="20260715173748640"/>
+<File n="fuentes/faDescargaSolicitudes.4fd" s="1" ts="20260715173756943"/>
+<File n="fuentes/faDescargaSolicitudes_gdc.4fd" s="1" ts="20260715173800667"/>
+<File n="fuentes/fAyuda.4fd" s="1" ts="20260715173814471"/>
+<File n="fuentes/fDescargarSolicitud.4fd" s="1" ts="20260715173819745"/>
+<File n="fuentes/fMensajeER.4fd" s="1" ts="20260715173823181"/>
+<File n="fuentes/fMensajeER_gdc.4fd" s="1" ts="20260715173827125"/>
+<File n="fuentes/fMensajenoSAT.4fd" s="1" ts="20260715173830695"/>
+<File n="fuentes/fMensajenoSAT_gdc.4fd" s="1" ts="20260715173834470"/>
+<File n="fuentes/fSolicitudPortabilidad.4fd" s="1" ts="20260715173838992"/>
+<File n="fuentes/fSolicitudPortabilidad_gdc.4fd" s="1" ts="20260715173843588"/>
+<File n="fuentes/lPeriodos.4gl" s="1" ts="20260715173849717"/>
+<File n="fuentes/lSolicitudPortabilidad.4gl" s="1" ts="20260715225942959">
+<Dep t="fuentes/clienteSAT.4gl"/>
+</File>
+<File n="fuentes/mGeneraReporte.4gl" s="1" ts="20260715173856370"/>
+<File n="fuentes/mSolicitudPortabilidad.4gl" s="1" ts="20260716110229609">
+<Dep t="fuentes/lSolicitudPortabilidad.4gl"/>
+<Dep t="fuentes/mGeneraReporte.4gl"/>
+<Dep t="fuentes/lReporteSolicitud.4gl"/>
+<Dep t="fuentes/lPeriodos.4gl"/>
+<Dep t="fuentes/clienteWS1ConsultaBasicaIMSS.4gl"/>
+<Dep t="fuentes/clienteWS2DeterminacionProcesar.4gl"/>
+<Dep t="fuentes/clienteWS3ConsultaRobustaIMSS.4gl"/>
+<Dep t="fuentes/clienteWS4NotificarProcesar.4gl"/>
+<Dep t="fuentes/clienteWS5ActualizarProcesar.4gl"/>
+<Dep t="fuentes/clienteWS6AvisoEstatusTransferenciaIMSS.4gl"/>
+<Dep t="fuentes/clienteDictamenBeneficioPensionario.4gl"/>
+</File>
+<File n="fuentes/mClienteCURP.4gl" s="1" ts="20260715173917437">
+<Dep t="fuentes/ConsultaPorCurpService_ConsultaPorCurpServiceHttpsSoap12Endpoint.4gl"/>
+</File>
+<File n="fuentes/mClienteCURPDetalle.4gl" s="1" ts="20260715173921291">
+<Ref t="fuentes/ConsultaCurpDetalleService_ConsultaCurpDetalleServiceHttpsSoap12Endpoint.inc"/>
+</File>
+<File n="fuentes/mServidorWS.4gl" s="1" ts="20260715173924741"/>
+<File n="fuentes/mWS1ConsultaBasicaISSSTE.4gl" s="1" ts="20260719172421136"/>
+<File n="fuentes/mWS3ConsultaRobustaISSSTE.4gl" s="1" ts="20260725142428489"/>
+<File n="fuentes/mWS6AvisoEstatusTransferenciaISSSTE.4gl" s="1" ts="20260725142611384"/>
+<File n="fuentes/archivos_CNSFws7.4gl" s="1" ts="20260715173936736"/>
+<File n="fuentes/mWs7DictamenBeneficioPensionario.4gl" s="1" ts="20260715173940304">
+<Dep t="fuentes/clienteCNSF.4gl"/>
+<Dep t="fuentes/clienteSaldosPreliminar.4gl"/>
+<Dep t="fuentes/archivos_CNSFws7.4gl"/>
+</File>
+</WorkspaceDatabase>
