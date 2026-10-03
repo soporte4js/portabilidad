@@ -1,0 +1,11 @@
+Activos de proceso
+- DZ-Gestión del repositorio documental del SGCP
+
+Estimaciones
+- RG-Estimación con puntos de casos de uso.xlsx
+  en la hoja de historico, que poner en aspectos a considerar.
+  
+Gestion de requisitos
+- IN-Técnicas de levantamiento.docx
+  Se pueden dejar los ejemplos o es mejor actualizarlos con las imagenes de nuestro producto
+  se puede quedar como plantilla de empresa con lo que tiene
