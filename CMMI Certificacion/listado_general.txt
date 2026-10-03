@@ -1,0 +1,354 @@
+ El volumen de la unidad C es Windows
+ El n£mero de serie del volumen es: 1238-049C
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion
+
+28/09/2026  10:21 a. m.    <DIR>          .
+28/09/2026  10:20 a. m.    <DIR>          ..
+26/09/2026  08:18 p. m.    <DIR>          Activos de Proceso
+27/09/2026  02:13 p. m.    <DIR>          Auditor¡as a procesos
+26/09/2026  08:26 p. m.    <DIR>          Capacitaci¢n organizacional
+12/09/2026  07:29 p. m.    <DIR>          Desarrollo de software
+14/09/2026  09:16 a. m.    <DIR>          Estimaciones
+23/09/2026  04:21 p. m.    <DIR>          Gesti¢n de configuraci¢n
+12/09/2026  07:29 p. m.    <DIR>          Gesti¢n de procesos
+23/09/2026  04:21 p. m.    <DIR>          Gesti¢n de requisitos
+27/09/2026  03:48 p. m.    <DIR>          Gobernanza
+27/09/2026  04:45 p. m.    <DIR>          Planeaci¢n
+27/09/2026  05:15 p. m.    <DIR>          Proyecto Portabilidad ISSSTE-IMSS
+12/09/2026  07:31 p. m.    <DIR>          Revisi¢n por pares
+26/09/2026  01:54 p. m.    <DIR>          Riesgos y Oportunidades
+28/09/2026  10:21 a. m.                 0 SGCP.txt
+26/09/2026  04:51 p. m.    <DIR>          Toma de decisiones
+               1 archivos              0 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Activos de Proceso
+
+26/09/2026  08:18 p. m.    <DIR>          .
+28/09/2026  10:21 a. m.    <DIR>          ..
+26/09/2026  04:32 p. m.           373,246 DZ-Arquitectura de procesos.docx
+26/09/2026  04:34 p. m.            71,354 DZ-Escenarios de evaluaci¢n formal.docx
+26/09/2026  04:38 p. m.           206,549 DZ-Gesti¢n del repositorio documental del SGCP.docx
+12/09/2026  08:46 p. m.            77,373 FT-Ambiente est ndar de trabajo.xlsx
+26/09/2026  04:41 p. m.           282,301 FT-Procedimiento Solicitud de vacaciones.docx
+26/09/2026  04:42 p. m.            64,444 FT-Procedimiento.docx
+               6 archivos      1,075,267 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Auditor¡as a procesos
+
+27/09/2026  02:13 p. m.    <DIR>          .
+28/09/2026  10:21 a. m.    <DIR>          ..
+26/09/2026  02:57 p. m.            37,593 DZ-Plan de auditor¡as.docx
+26/09/2026  02:57 p. m.            21,130 FT-Auditor¡a a procesos.xlsx
+26/09/2026  02:58 p. m.            41,143 FT-Auditor¡a a proyectos.xlsx
+26/09/2026  02:58 p. m.            20,994 FT-Auditor¡a calidad de datos.xlsx
+26/09/2026  02:59 p. m.            14,882 FT-Auditor¡a evaluaci¢n de procesos.xlsx
+26/09/2026  02:59 p. m.            21,467 FT-Auditor¡a gesti¢n de capacitaci¢n.xlsx
+26/09/2026  02:59 p. m.            16,979 FT-Auditor¡a gesti¢n de mejoras.xlsx
+26/09/2026  08:29 p. m.            21,155 FT-Auditor¡a gesti¢n de negocio.xlsx
+12/09/2026  11:54 p. m.            60,405 FT-Seguimiento a hallazgos de auditor¡as.xlsx
+26/09/2026  02:57 p. m.           170,099 PR-Auditor¡as a procesos.docx
+12/09/2026  11:54 p. m.            43,388 PR-Auditor¡as a procesos.vsdx
+              14 archivos        561,320 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Capacitaci¢n organizacional
+
+26/09/2026  08:26 p. m.    <DIR>          .
+28/09/2026  10:21 a. m.    <DIR>          ..
+12/09/2026  11:54 p. m.    <DIR>          Examenes de capacidades
+17/09/2026  05:42 p. m.            64,340 FT-Encuesta de capacitaci¢n.docx
+17/09/2026  05:51 p. m.            61,719 FT-Evaluaci¢n de capacitaci¢n.docx
+17/09/2026  05:55 p. m.            53,534 FT-Lista de asistencia.docx
+17/09/2026  06:35 p. m.            44,432 FT-Lista de instructores.xlsx
+26/09/2026  06:44 p. m.            66,344 FT-Matriz de competencia y DNC.xlsx
+17/09/2026  06:30 p. m.            67,320 FT-Plan de capacitaci¢n.xlsx
+12/09/2026  11:54 p. m.            47,109 FT-Solicitud de capacitaci¢n.docx
+12/09/2026  11:55 p. m.            77,520 PR-Gesti¢n de capacitaci¢n-Editable.vsdx
+17/09/2026  05:28 p. m.           176,010 PR-Gesti¢n de capacitaci¢n.docx
+               9 archivos        658,328 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Capacitaci¢n organizacional\Examenes de capacidades
+
+12/09/2026  11:54 p. m.    <DIR>          .
+26/09/2026  08:26 p. m.    <DIR>          ..
+               0 archivos              0 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Desarrollo de software
+
+12/09/2026  07:29 p. m.    <DIR>          .
+28/09/2026  10:21 a. m.    <DIR>          ..
+23/09/2026  05:53 p. m.    <DIR>          Construcci¢n
+25/09/2026  03:27 p. m.    <DIR>          Directrices
+24/09/2026  02:14 p. m.    <DIR>          Dise¤o de software
+12/09/2026  07:31 p. m.    <DIR>          Entrega
+23/09/2026  06:07 p. m.    <DIR>          Gesti¢n de cambios
+27/09/2026  05:14 p. m.    <DIR>          Gesti¢n de requisitos
+25/09/2026  03:27 p. m.    <DIR>          PR
+26/09/2026  01:53 p. m.    <DIR>          Pruebas
+12/09/2026  07:31 p. m.    <DIR>          Revisi¢n por pares
+               0 archivos              0 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Desarrollo de software\Construcci¢n
+
+23/09/2026  05:53 p. m.    <DIR>          .
+12/09/2026  07:29 p. m.    <DIR>          ..
+23/09/2026  05:26 p. m.             8,128 FT - Check list de integraci¢n.xlsx
+23/09/2026  05:35 p. m.            33,190 FT-Estrategia de integraci¢n.docx
+23/09/2026  05:29 p. m.            32,263 FT-Est ndar de codificaci¢n.docx
+23/09/2026  05:53 p. m.            16,672 FT-Reporte de pruebas unitarias.xlsx
+12/09/2026  11:55 p. m.            31,319 PR-Construcci¢n Editable.vsdx
+23/09/2026  05:19 p. m.           140,293 PR-Construcci¢n.docx
+               6 archivos        261,865 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Desarrollo de software\Directrices
+
+25/09/2026  03:27 p. m.    <DIR>          .
+12/09/2026  07:29 p. m.    <DIR>          ..
+23/09/2026  04:32 p. m.            36,296 DZ-Criterios de selecci¢n para RXP.docx
+22/09/2026  08:22 p. m.            40,422 DZ-Plan de gesti¢n de la configuraci¢n.docx
+               2 archivos         76,718 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Desarrollo de software\Dise¤o de software
+
+24/09/2026  02:14 p. m.    <DIR>          .
+12/09/2026  07:29 p. m.    <DIR>          ..
+23/09/2026  12:31 a. m.           220,907 FT-Dise¤o de software.docx
+23/09/2026  12:58 a. m.            36,996 FT-Manual de mantenimiento.docx
+23/09/2026  01:03 a. m.            37,013 FT-Manual de operaciones.docx
+23/09/2026  01:08 a. m.           206,722 FT-Manual de usuario.docx
+23/09/2026  11:38 a. m.            26,996 FT-Memorandum t‚cnico.docx
+23/09/2026  11:56 a. m.            28,766 IN-Criterios de dise¤o.docx
+12/09/2026  11:55 p. m.            49,338 PR-Dise¤o de software-Editable.vsdx
+22/09/2026  08:54 p. m.           225,622 PR-Dise¤o de software.docx
+               8 archivos        832,360 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Desarrollo de software\Entrega
+
+12/09/2026  07:31 p. m.    <DIR>          .
+12/09/2026  07:29 p. m.    <DIR>          ..
+               0 archivos              0 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Desarrollo de software\Gesti¢n de cambios
+
+23/09/2026  06:07 p. m.    <DIR>          .
+12/09/2026  07:29 p. m.    <DIR>          ..
+22/09/2026  08:23 p. m.            20,488 FT-Administraci¢n de datos.xlsx
+22/09/2026  08:23 p. m.            31,778 FT-Auditor¡a de configuraci¢n componentes de software.docx
+22/09/2026  08:23 p. m.            35,345 FT-Auditor¡a de configuraci¢n documentaci¢n.docx
+22/09/2026  08:23 p. m.            12,311 FT-Concentrado de cambios.xlsx
+22/09/2026  08:23 p. m.            40,728 FT-Solicitud de cambios.docx
+12/09/2026  11:55 p. m.            28,731 PR-Gesti¢n de cambios -Editable.vsdx
+22/09/2026  08:22 p. m.           140,402 PR-Gesti¢n de cambios.docx
+               7 archivos        309,783 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Desarrollo de software\Gesti¢n de requisitos
+
+27/09/2026  05:14 p. m.    <DIR>          .
+12/09/2026  07:29 p. m.    <DIR>          ..
+27/09/2026  05:14 p. m.            58,751 FT-Enunciado de trabajo (SOW).docx
+14/09/2026  01:49 a. m.            51,518 FT-Especificaci¢n de requisitos.docx
+13/09/2026  07:54 p. m.            41,960 FT-Matriz de trazabilidad.xlsx
+14/09/2026  01:49 a. m.            27,743 FT-Minuta.docx
+14/09/2026  01:49 a. m.            30,239 FT-Validaci¢n de requisitos.docx
+14/09/2026  05:06 p. m.           262,675 IN-T‚cnicas de levantamiento.docx
+12/09/2026  11:55 p. m.            37,872 PR-Gesti¢n de requisitos-Editable.vsdx
+14/09/2026  05:01 p. m.           189,018 PR-Gesti¢n de requisitos.docx
+               8 archivos        699,776 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Desarrollo de software\PR
+
+25/09/2026  03:27 p. m.    <DIR>          .
+12/09/2026  07:29 p. m.    <DIR>          ..
+25/09/2026  01:55 p. m.            36,296 DZ-Criterios de selecci¢n para RXP.docx
+25/09/2026  03:23 p. m.            63,666 FT-Informe RxP nivel proyecto.pptx
+25/09/2026  03:23 p. m.            15,201 FT-RXP c¢digo.xlsx
+25/09/2026  03:25 p. m.            13,861 FT-RXP dise¤o de software .xlsx
+25/09/2026  03:26 p. m.            13,321 FT-RXP especificaci¢n de requisitos.xlsx
+25/09/2026  03:26 p. m.            13,555 FT-RXP gesti¢n de pruebas.xlsx
+25/09/2026  03:26 p. m.            13,124 FT-RXP manual de usuario.xlsx
+25/09/2026  03:26 p. m.            17,649 FT-RXP manuales t‚cnicos.xlsx
+25/09/2026  01:56 p. m.           140,293 PR-Construcci¢n.docx
+12/09/2026  11:55 p. m.            22,312 PR-Revisi¢n por pares-Editable.vsdx
+23/09/2026  06:12 p. m.            80,508 PR-Revisi¢n por pares.docx
+              11 archivos        429,786 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Desarrollo de software\Pruebas
+
+26/09/2026  01:53 p. m.    <DIR>          .
+12/09/2026  07:29 p. m.    <DIR>          ..
+25/09/2026  03:52 p. m.           731,062 FT- Gesti¢n de pruebas.xlsx
+25/09/2026  04:03 p. m.            51,858 FT-Casos de prueba.docx
+26/09/2026  01:51 p. m.            14,581 FT-Gesti¢n de incidencias.xlsx
+26/09/2026  01:53 p. m.            55,335 IN-Tipos de pruebas.docx
+12/09/2026  11:55 p. m.            25,063 PR-Pruebas-Editable.vsdx
+25/09/2026  03:34 p. m.           166,951 PR-Pruebas.docx
+               6 archivos      1,044,850 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Desarrollo de software\Revisi¢n por pares
+
+12/09/2026  07:31 p. m.    <DIR>          .
+12/09/2026  07:29 p. m.    <DIR>          ..
+               0 archivos              0 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Estimaciones
+
+14/09/2026  09:16 a. m.    <DIR>          .
+28/09/2026  10:21 a. m.    <DIR>          ..
+27/09/2026  03:38 p. m.    <DIR>          Estimaci¢n
+               0 archivos              0 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Estimaciones\Estimaci¢n
+
+27/09/2026  03:38 p. m.    <DIR>          .
+14/09/2026  09:16 a. m.    <DIR>          ..
+13/09/2026  06:53 p. m.           144,400 PR-Estimaci¢n.docx
+13/09/2026  06:53 p. m.            57,356 RG-Estimaci¢n con puntos de casos de uso.xlsx
+               3 archivos        234,537 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Gesti¢n de configuraci¢n
+
+23/09/2026  04:21 p. m.    <DIR>          .
+28/09/2026  10:21 a. m.    <DIR>          ..
+22/09/2026  08:22 p. m.            40,422 DZ-Plan de gesti¢n de la configuraci¢n.docx
+22/09/2026  08:23 p. m.            20,488 FT-Administraci¢n de datos.xlsx
+22/09/2026  08:23 p. m.            31,778 FT-Auditor¡a de configuraci¢n componentes de software.docx
+22/09/2026  08:23 p. m.            35,345 FT-Auditor¡a de configuraci¢n documentaci¢n.docx
+22/09/2026  08:23 p. m.            12,311 FT-Concentrado de cambios.xlsx
+22/09/2026  08:23 p. m.            40,728 FT-Solicitud de cambios.docx
+22/09/2026  08:22 p. m.           140,402 PR-Gesti¢n de cambios.docx
+               7 archivos        321,474 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Gesti¢n de procesos
+
+12/09/2026  07:29 p. m.    <DIR>          .
+28/09/2026  10:21 a. m.    <DIR>          ..
+12/09/2026  11:55 p. m.    <DIR>          Directrices
+22/09/2026  08:30 p. m.    <DIR>          Evaluaci¢n de procesos
+23/09/2026  04:21 p. m.    <DIR>          Gesti¢n de mejoras
+               0 archivos              0 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Gesti¢n de procesos\Directrices
+
+12/09/2026  11:55 p. m.    <DIR>          .
+12/09/2026  07:29 p. m.    <DIR>          ..
+               0 archivos              0 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Gesti¢n de procesos\Evaluaci¢n de procesos
+
+22/09/2026  08:30 p. m.    <DIR>          .
+12/09/2026  07:29 p. m.    <DIR>          ..
+22/09/2026  08:29 p. m.            14,813 FT-Evaluaci¢n de procesos.xlsx
+12/09/2026  11:55 p. m.            23,412 PR-Evaluaci¢n de procesos-Editable.vsdx
+22/09/2026  08:29 p. m.            96,650 PR-Evaluaci¢n de procesos.docx
+               3 archivos        134,875 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Gesti¢n de procesos\Gesti¢n de mejoras
+
+23/09/2026  04:21 p. m.    <DIR>          .
+12/09/2026  07:29 p. m.    <DIR>          ..
+22/09/2026  08:38 p. m.            41,476 FT-Matriz de gesti¢n de mejoras.xlsx
+22/09/2026  08:38 p. m.            24,517 FT-Solicitud de mejora de proceso.docx
+12/09/2026  11:55 p. m.            26,048 PR-Gesti¢n de mejora-Editable.vsdx
+22/09/2026  08:38 p. m.           132,794 PR-Gesti¢n de mejoras.docx
+               4 archivos        224,835 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Gesti¢n de requisitos
+
+23/09/2026  04:21 p. m.    <DIR>          .
+28/09/2026  10:21 a. m.    <DIR>          ..
+14/09/2026  01:49 a. m.            33,579 FT-Enunciado de trabajo (SOW).docx
+14/09/2026  01:49 a. m.            51,518 FT-Especificaci¢n de requisitos.docx
+13/09/2026  07:54 p. m.            41,960 FT-Matriz de trazabilidad.xlsx
+14/09/2026  01:49 a. m.            27,743 FT-Minuta.docx
+14/09/2026  01:49 a. m.            30,239 FT-Validaci¢n de requisitos.docx
+14/09/2026  05:06 p. m.           262,675 IN-T‚cnicas de levantamiento.docx
+12/09/2026  11:55 p. m.            37,872 PR-Gesti¢n de requisitos-Editable.vsdx
+14/09/2026  05:01 p. m.           189,018 PR-Gesti¢n de requisitos.docx
+               8 archivos        674,604 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Gobernanza
+
+27/09/2026  03:48 p. m.    <DIR>          .
+28/09/2026  10:21 a. m.    <DIR>          ..
+12/09/2026  07:20 p. m.            45,573 DZ-Plan de mediciones.xlsx
+27/07/2026  05:17 p. m.            50,538 FT-FODA del negocio.xlsx
+26/09/2026  05:10 p. m.            76,162 FT-Funciograma.pptx
+26/09/2026  05:11 p. m.            62,434 FT-Incentivos y consecuencias.docx
+26/09/2026  06:44 p. m.            66,344 FT-Matriz de competencia y DNC.xlsx
+26/09/2026  08:15 p. m.            80,127 FT-Plan estrat‚gico.docx
+27/07/2026  05:29 p. m.             5,251 Plan_Calidad_2400h.xlsx
+27/07/2026  05:29 p. m.             9,209 Plan_Calidad_2400h_Trimestral_Graficas.xlsx
+26/09/2026  08:22 p. m.           460,320 PR-Gesti¢n de negocio.docx
+27/07/2026  05:29 p. m.           754,124 Presupuesto_Anual_FourJs.pdf
+26/09/2026  08:16 p. m.            59,160 Presupuesto_Anual_FourJs.xlsx
+              17 archivos      1,853,759 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Planeaci¢n
+
+27/09/2026  04:45 p. m.    <DIR>          .
+28/09/2026  10:21 a. m.    <DIR>          ..
+14/09/2026  03:40 p. m.            47,705 FT- Cronograma.xlsx
+14/09/2026  05:07 p. m.           105,501 FT-Ciclo de vida iterativo e incremental.docx
+14/09/2026  05:10 p. m.           264,477 FT-Kickoff del proyecto.pptx
+14/09/2026  07:23 p. m.            67,155 FT-Matriz_de_riesgos_y_oportunidades.xlsx
+27/09/2026  04:45 p. m.           266,404 FT-Plan de proyecto.docx
+14/09/2026  04:39 p. m.            17,052 PMO_Estimacion_costos.xlsx
+14/09/2026  03:14 p. m.           240,588 PR-Planeaci¢n.docx
+               7 archivos      1,008,882 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Proyecto Portabilidad ISSSTE-IMSS
+
+27/09/2026  05:15 p. m.    <DIR>          .
+28/09/2026  10:21 a. m.    <DIR>          ..
+22/09/2026  08:01 a. m.    <DIR>          Datos_Prueba_Portabilidad
+22/09/2026  07:59 a. m.            30,725 FJL-F01-TD-Vision.docx
+22/09/2026  08:00 a. m.            43,398 FJL-F02-TD-Especificacion de Requerimientos.docx
+22/09/2026  08:00 a. m.           502,043 FJL-F03-TD-Diagnostico Conceptual.docx
+22/09/2026  08:00 a. m.            35,558 FJL-F04-TD-Validacion de Requerimientos.docx
+22/09/2026  08:00 a. m.           671,079 FJL-F05-TD-Requerimientos Especiales y Casos de Uso.docx
+22/09/2026  08:00 a. m.           190,751 FJL-F06-TD-Arquitectura Tecnologica.docx
+22/09/2026  07:59 a. m.           672,857 FJL-F07-TD-Dise¤o.docx
+22/09/2026  08:00 a. m.            30,716 FJL-F09-TD-Manual Tecnico.docx
+22/09/2026  08:01 a. m.            35,705 FJL-F10-Reglas de Negocio.docx
+22/09/2026  08:01 a. m.            30,539 FJL-F11-TD-Codigo Fuente.docx
+22/09/2026  08:01 a. m.            29,265 FJL-F12-TD-Plan de Calidad.docx
+13/09/2026  05:08 p. m.            32,969 FJL-F13-TD-Escenario de Pruebas.docx
+22/09/2026  08:01 a. m.            30,078 FJL-F14-Instructivo de Operacion.docx
+22/09/2026  08:01 a. m.            27,662 FJL-F15-TD-Guia Rapida.docx
+              14 archivos      2,363,345 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Proyecto Portabilidad ISSSTE-IMSS\Datos_Prueba_Portabilidad
+
+22/09/2026  08:01 a. m.    <DIR>          .
+27/09/2026  05:15 p. m.    <DIR>          ..
+27/07/2026  06:57 p. m.             1,383 certificado_prueba.cer
+27/07/2026  06:57 p. m.             1,854 certificado_prueba.key
+13/09/2026  05:08 p. m.            14,338 Datos_Prueba_Portabilidad.xlsx
+               3 archivos         17,575 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Revisi¢n por pares
+
+12/09/2026  07:31 p. m.    <DIR>          .
+28/09/2026  10:21 a. m.    <DIR>          ..
+               0 archivos              0 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Riesgos y Oportunidades
+
+26/09/2026  01:54 p. m.    <DIR>          .
+28/09/2026  10:21 a. m.    <DIR>          ..
+14/09/2026  07:23 p. m.            67,155 FT-Matriz_de_riesgos_y_oportunidades.xlsx
+               1 archivos         67,155 bytes
+
+ Directorio de C:\Users\Usuario\Desktop\CMMI Certificacion\Toma de decisiones
+
+26/09/2026  04:51 p. m.    <DIR>          .
+28/09/2026  10:21 a. m.    <DIR>          ..
+21/09/2026  09:41 a. m.            46,039 FT-An lisis para toma de decisiones.xlsx
+17/09/2026  04:54 p. m.            38,283 FT-Concentrado de decisiones.xlsx
+12/09/2026  11:58 p. m.            62,335 PR-An lisis para toma de decisiones-Editable.vsdx
+17/09/2026  05:09 p. m.           341,589 PR-An lisis para toma de decisi¢n.docx
+               4 archivos        488,246 bytes
+
+     Total de archivos en la lista:
+             149 archivos     13,339,340 bytes
+              89 dirs  28,959,137,792 bytes libres
