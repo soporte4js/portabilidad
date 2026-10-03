@@ -1,0 +1,248 @@
+##############################
+## arg_val(0): rPortabilidad.42r##
+## arg_val(1): Mg==##
+## arg_val(2): TklSTDYwMTAwNU1OTFhEUjA3##
+## arg_val(3): NzI2OA==##
+##############################
+ID Aplicacion: 2
+Usuario: 2-7268
+
+ INSERT INTO cei_td_solicitud(folio_solicitud, inst_receptor,nss_imss, nss_issste, fecha_respuesta)
+      VALUES(              376610
+           , '02'
+           , '43856003959'
+           , '   7257348'
+           , '2026-09-28 14:40:04'
+ )
+   statusOper = EXITOSO
+   message = LA OPERACION SE EJECUTO.
+   TipoError = 
+   CodigoError = 
+   SessionID = ADvpxCsXBnQuknJi_ngms44jOXFweTaG8OUS17ELmI4bRj3_0jkC!-724997001!1790628342551
+DBDATE=dmy4/
+          ###### DATOS CURP ######
+--------------------------------------------
+              CURP: NIRL601005MNLXDR07
+           Paterno: NIÑO                                                                                                
+           Materno: RODRIGUEZ                                                                                           
+            Nombre: MARIA DE LOURDES                                                                                    
+              Sexo: M                                                                                                   
+          Fec. Nac: 05/10/1960
+       Entidad Nac: NL
+      Nacionalidad: MEX
+        StatusCurp: RCN
+NivelConfiabilidad:           0
+    CURPHistoricas: 
+1.-fechaingresoposterior31032007
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Comunicacion IMSS WS1:           0
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Datos del servicio IMSS WS1:            02E57El nombre del asegurado MARIA DE LOURDES NI#O RODRIGUEZ registrado en el IMSS no coincide con RENAPO/ISSSTE, es necesario realizar en el IMSS un trámite de corrección de datos del asegurado.
+Signature:mwPNTtauu5Ul48Rxxq6t/beb8fOQsRXdd6R8JAsTmcGnsxRjgDxdWUYh1s1m0viriYEYz+GoJF+rqb8dkwolVbaXW9EL+lLK93e1Yjp2xMikS8dyIU44DdV2aKSQw6fuIUMSNR9IzufbaDWPNyjp40zgJnuRjJDvThp54TckbohWRbdJJqyPRaW9xoIoSOWzWMZCN1mMhY3hED0nWd8lFjYF+4FoZIsfeRpM7cPlEfRbTy62wyQMO4M0w4b7D0FcSP1Wa4GTdPgDyOOP+Cl3FDChtAkC6+NzhHgxke718tdTSacMXel9iXs4Swco97HHPFuFLSlYn5TXF8zS15IweQ==
+Verify:          1
+Comando scp Portabilidad copia a GRTATMP1: scp -q R_NIRL601005MNLXDR07_376610.pdf /trabajo/sipe/sipeav/tmp/R_NIRL601005MNLXDR07_376610.pdf
+Comando scp Portabilidad copia a GRTARPT1: scp -q /trabajo/sipe/sipeav/tmp/R_NIRL601005MNLXDR07_376610.pdf  sipeav@192.168.50.67:/trabajo/webserver7/https-m5k-08/docs/sipeav/rep_avc/R_NIRL601005MNLXDR07_376610.pdf
+rutaLaunchURL: http://web1.issste.gob.mx/sipeav/rep_avc/R_NIRL601005MNLXDR07_376610.pdf
+Signature:mwPNTtauu5Ul48Rxxq6t/beb8fOQsRXdd6R8JAsTmcGnsxRjgDxdWUYh1s1m0viriYEYz+GoJF+rqb8dkwolVbaXW9EL+lLK93e1Yjp2xMikS8dyIU44DdV2aKSQw6fuIUMSNR9IzufbaDWPNyjp40zgJnuRjJDvThp54TckbohWRbdJJqyPRaW9xoIoSOWzWMZCN1mMhY3hED0nWd8lFjYF+4FoZIsfeRpM7cPlEfRbTy62wyQMO4M0w4b7D0FcSP1Wa4GTdPgDyOOP+Cl3FDChtAkC6+NzhHgxke718tdTSacMXel9iXs4Swco97HHPFuFLSlYn5TXF8zS15IweQ==
+Verify:          1
+Comando scp Portabilidad copia a GRTATMP1: scp -q S_NIRL601005MNLXDR07_376610.pdf /trabajo/sipe/sipeav/tmp/S_NIRL601005MNLXDR07_376610.pdf
+Comando scp Portabilidad copia a GRTARPT1: scp -q /trabajo/sipe/sipeav/tmp/S_NIRL601005MNLXDR07_376610.pdf  sipeav@192.168.50.67:/trabajo/webserver7/https-m5k-08/docs/sipeav/rep_avc/S_NIRL601005MNLXDR07_376610.pdf
+rutaLaunchURL: http://web1.issste.gob.mx/sipeav/rep_avc/S_NIRL601005MNLXDR07_376610.pdf
+ID Aplicacion: 2
+Usuario: 2-7268
+##############################
+## arg_val(0): rPortabilidad.42r##
+## arg_val(1): Mg==##
+## arg_val(2): TU9NQTYxMDcwOU1ERk5IUjA4##
+## arg_val(3): NzI2OA==##
+##############################
+ID Aplicacion: 2
+Usuario: 2-7268
+
+ INSERT INTO cei_td_solicitud(folio_solicitud, inst_receptor,nss_imss, nss_issste, fecha_respuesta)
+      VALUES(              376620
+           , '02'
+           , '37016100085'
+           , '   8680550'
+           , '2026-09-28 14:49:04'
+ )
+   statusOper = EXITOSO
+   message = LA OPERACION SE EJECUTO.
+   TipoError = 
+   CodigoError = 
+   SessionID = GC3pzGSrFrimtWXbdKVUQHRA4Ub5UiSaBQqafsyJHDx15ZD9vNvG!705476842!1790628881579
+DBDATE=dmy4/
+          ###### DATOS CURP ######
+--------------------------------------------
+              CURP: MOMA610709MDFNHR08
+           Paterno: MONCADA                                                                                             
+           Materno: MAHUEM                                                                                              
+            Nombre: ARACELI PATRICIA                                                                                    
+              Sexo: M                                                                                                   
+          Fec. Nac: 09/07/1961
+       Entidad Nac: DF
+      Nacionalidad: MEX
+        StatusCurp: RCN
+NivelConfiabilidad:           0
+    CURPHistoricas: 
+1.-fechaingresoposterior31032007
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Comunicacion IMSS WS1:           0
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Datos del servicio IMSS WS1:            01MOMA610709MDFNHR08MONCADAMAHUEMARACELI PATRICIA3701610008525/02/2022
+------------------------------------------------
+------------------------------------------------
+------------------------------------------------
+Comunicacion Procesar WS2:           0
+------------------------------------------------
+------------------------------------------------
+------------------------------------------------
+Datos Procesar WS2: 01DP2026092814545200000000000000000000000000000005892026-09-28 14:54:5201No existe resolución registrada por IMSSNo existe resolución registrada por ISSSTE
+################################################
+################################################
+################################################
+Comunicacion IMSS WS3:           0
+################################################
+################################################
+################################################
+Datos IMSS WS3:            01MOMA610709MDFNHR08MONCADAMAHUEMARACELI PATRICIA3701610008525/02/202228/09/2026 14:54:53         15          0       3407          0          0       3407
+##############################
+## arg_val(0): rPortabilidad.42r##
+## arg_val(1): Mg==##
+## arg_val(2): SklSSTY2MDIwMUhERk1URzA2##
+## arg_val(3): NzI2OA==##
+##############################
+ID Aplicacion: 2
+Usuario: 2-7268
+##############################
+## arg_val(0): rPortabilidad.42r##
+## arg_val(1): Mg==##
+## arg_val(2): TkFBUjYzMDYyOE1ERlJCQzA4##
+## arg_val(3): NzI2OA==##
+##############################
+ID Aplicacion: 2
+Usuario: 2-7268
+
+ INSERT INTO cei_td_solicitud(folio_solicitud, inst_receptor,nss_imss, nss_issste, fecha_respuesta)
+      VALUES(              376635
+           , '02'
+           , '20876303973'
+           , '   5956470'
+           , '2026-09-28 14:57:03'
+ )
+   statusOper = EXITOSO
+   message = LA OPERACION SE EJECUTO.
+   TipoError = 
+   CodigoError = 
+   SessionID = d1Lp07MU2fzz9otXYZ04oGuNiaZMUdDG7AO2Ca9AZhn8qh6uFZjb!268722895!1790629360404
+DBDATE=dmy4/
+          ###### DATOS CURP ######
+--------------------------------------------
+              CURP: NAAR630628MDFRBC08
+           Paterno: NARANJO                                                                                             
+           Materno: ABASOLO                                                                                             
+            Nombre: MARIA DEL ROCIO                                                                                     
+              Sexo: M                                                                                                   
+          Fec. Nac: 28/06/1963
+       Entidad Nac: DF
+      Nacionalidad: MEX
+        StatusCurp: RCN
+NivelConfiabilidad:           0
+    CURPHistoricas: 
+1.-fechaingresoposterior31032007
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Comunicacion IMSS WS1:           0
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Datos del servicio IMSS WS1:            01NAAR630628MDFRBC08NARANJOABASOLOMARIA DEL ROCIO2087630397312/11/2004
+------------------------------------------------
+------------------------------------------------
+------------------------------------------------
+Comunicacion Procesar WS2:           0
+------------------------------------------------
+------------------------------------------------
+------------------------------------------------
+Datos Procesar WS2: 01DP2026092815024200000000000000000000000000000005922026-09-28 15:02:4201No existe resolución registrada por IMSSNo existe resolución registrada por ISSSTE
+################################################
+################################################
+################################################
+Comunicacion IMSS WS3:           0
+################################################
+################################################
+################################################
+Datos IMSS WS3:            01NAAR630628MDFRBC08NARANJOABASOLOMARIA DEL ROCIO2087630397312/11/200428/09/2026 15:02:42         39          0       4266          0          0       4266
+##############################
+## arg_val(0): rPortabilidad.42r##
+## arg_val(1): Mg==##
+## arg_val(2): TU9NQTYxMDcwOU1ERk5IUjA4##
+## arg_val(3): NzI2OA==##
+##############################
+ID Aplicacion: 2
+Usuario: 2-7268
+
+ INSERT INTO cei_td_solicitud(folio_solicitud, inst_receptor,nss_imss, nss_issste, fecha_respuesta)
+      VALUES(              376636
+           , '02'
+           , '37016100085'
+           , '   8680550'
+           , '2026-09-28 14:58:29'
+ )
+   statusOper = EXITOSO
+   message = LA OPERACION SE EJECUTO.
+   TipoError = 
+   CodigoError = 
+   SessionID = H4zp1QfYQLw0Fl_9OabFBOqlE39gjKvUQD9R94OwxXVoUBFz3gNc!-1326012608!1790629447640
+DBDATE=dmy4/
+          ###### DATOS CURP ######
+--------------------------------------------
+              CURP: MOMA610709MDFNHR08
+           Paterno: MONCADA                                                                                             
+           Materno: MAHUEM                                                                                              
+            Nombre: ARACELI PATRICIA                                                                                    
+              Sexo: M                                                                                                   
+          Fec. Nac: 09/07/1961
+       Entidad Nac: DF
+      Nacionalidad: MEX
+        StatusCurp: RCN
+NivelConfiabilidad:           0
+    CURPHistoricas: 
+1.-fechaingresoposterior31032007
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Comunicacion IMSS WS1:           0
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Datos del servicio IMSS WS1:            01MOMA610709MDFNHR08MONCADAMAHUEMARACELI PATRICIA3701610008525/02/2022
+------------------------------------------------
+------------------------------------------------
+------------------------------------------------
+Comunicacion Procesar WS2:           0
+------------------------------------------------
+------------------------------------------------
+------------------------------------------------
+Datos Procesar WS2: 02E01000000000000000000000000000000000000000000000000002026-09-28 14:54:5200No existe resolución registrada por IMSSNo existe resolución registrada por ISSSTE
+Signature:IZW30P0qX5jSPjPP8G2D8W6HWWMMeElZo5P8CYT8gtittPBppC9+UzC1PrVgeplP18Rbh71VJmrOxOzEYLh+JNmKoxH/gv/UDsnPgjkH5unM6SrLz0Ln22VKbTqrqKiBzWj1j3DV8sydVbPSAqsAadWYBz4Y4bmGMfsP7EynFfq0rxMlHC/sw5wLRRj31Ci/So3RpxLwz5E3pqS+oQL0noBdgujjYmS3fRieYdGYg8SIadUGhtOOrIGKLe6FJNBzNdZdv5XSQaEx3818Bkmin+lQA4kTpxjYRMUGIvQ7+crBV05p50siXaB2MhMR3Ju1QImOjvP5rAFxEGUOi7SiHw==
+Verify:          1
+Comando scp Portabilidad copia a GRTATMP1: scp -q R_MOMA610709MDFNHR08_376636.pdf /trabajo/sipe/sipeav/tmp/R_MOMA610709MDFNHR08_376636.pdf
+Comando scp Portabilidad copia a GRTARPT1: scp -q /trabajo/sipe/sipeav/tmp/R_MOMA610709MDFNHR08_376636.pdf  sipeav@192.168.50.67:/trabajo/webserver7/https-m5k-08/docs/sipeav/rep_avc/R_MOMA610709MDFNHR08_376636.pdf
+rutaLaunchURL: http://web1.issste.gob.mx/sipeav/rep_avc/R_MOMA610709MDFNHR08_376636.pdf
+Signature:IZW30P0qX5jSPjPP8G2D8W6HWWMMeElZo5P8CYT8gtittPBppC9+UzC1PrVgeplP18Rbh71VJmrOxOzEYLh+JNmKoxH/gv/UDsnPgjkH5unM6SrLz0Ln22VKbTqrqKiBzWj1j3DV8sydVbPSAqsAadWYBz4Y4bmGMfsP7EynFfq0rxMlHC/sw5wLRRj31Ci/So3RpxLwz5E3pqS+oQL0noBdgujjYmS3fRieYdGYg8SIadUGhtOOrIGKLe6FJNBzNdZdv5XSQaEx3818Bkmin+lQA4kTpxjYRMUGIvQ7+crBV05p50siXaB2MhMR3Ju1QImOjvP5rAFxEGUOi7SiHw==
+Verify:          1
+Comando scp Portabilidad copia a GRTATMP1: scp -q S_MOMA610709MDFNHR08_376636.pdf /trabajo/sipe/sipeav/tmp/S_MOMA610709MDFNHR08_376636.pdf
+Comando scp Portabilidad copia a GRTARPT1: scp -q /trabajo/sipe/sipeav/tmp/S_MOMA610709MDFNHR08_376636.pdf  sipeav@192.168.50.67:/trabajo/webserver7/https-m5k-08/docs/sipeav/rep_avc/S_MOMA610709MDFNHR08_376636.pdf
+rutaLaunchURL: http://web1.issste.gob.mx/sipeav/rep_avc/S_MOMA610709MDFNHR08_376636.pdf
+ID Aplicacion: 2
+Usuario: 2-7268
